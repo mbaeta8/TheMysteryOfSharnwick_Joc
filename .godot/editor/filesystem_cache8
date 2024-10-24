@@ -1,0 +1,560 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1728921734
+default_env.tres::Environment::1316852642981598220::1728921734::0::1::::<><>::
+icon.png::CompressedTexture2D::3684527047751351084::1726596590::1728902115::1::::<><>::
+README.md::TextFile::-1::1728053602::0::1::::<><>::
+::res://Assets/::1728901921
+::res://Assets/Sprites/::1728901921
+::res://Assets/Sprites/Animal/::1728902115
+Cat 01-1.png::CompressedTexture2D::2083316032550956432::1728060495::1728902115::1::::<><>::
+Cat 01-1r.png::CompressedTexture2D::5175347754315745268::1728060495::1728902115::1::::<><>::
+Cat 01-2.png::CompressedTexture2D::3487868251163745674::1728060495::1728902115::1::::<><>::
+Cat 01-3.png::CompressedTexture2D::384284895826663784::1728060495::1728902115::1::::<><>::
+Cat-01-2r.png::CompressedTexture2D::3747657310872945819::1728060495::1728902115::1::::<><>::
+Cat-01-3r.png::CompressedTexture2D::1347050996082636346::1728060495::1728902115::1::::<><>::
+Dog 01-1.png::CompressedTexture2D::3697724580934425386::1728060495::1728902115::1::::<><>::
+Dog 01-1r.png::CompressedTexture2D::3180650388595787765::1728060495::1728902115::1::::<><>::
+Dog 01-2.png::CompressedTexture2D::2765804389157219845::1728060495::1728902115::1::::<><>::
+Dog 01-3.png::CompressedTexture2D::1374067076592894640::1728060495::1728902115::1::::<><>::
+Dog-01-2r.png::CompressedTexture2D::2152577495634979038::1728060495::1728902115::1::::<><>::
+Dog-01-3r.png::CompressedTexture2D::5296535913449183104::1728060495::1728902115::1::::<><>::
+::res://Assets/Sprites/Boss/::1728902115
+Boss 01.png::CompressedTexture2D::8402689773185282853::1728060495::1728902115::1::::<><>::
+::res://Assets/Sprites/Enemy/::1728902115
+Enemy 01-1.png::CompressedTexture2D::4805063061786965210::1728060495::1728902115::1::::<><>::
+Enemy 02-1.png::CompressedTexture2D::2476971093199980453::1728060495::1728902115::1::::<><>::
+Enemy 03-1.png::CompressedTexture2D::2080301276029860988::1728060495::1728902115::1::::<><>::
+Enemy 04-1.png::CompressedTexture2D::2510434337007262106::1728060495::1728902115::1::::<><>::
+Enemy 05-1.png::CompressedTexture2D::8397591600138566545::1728060495::1728902115::1::::<><>::
+Enemy 06-1.png::CompressedTexture2D::1982430487180962805::1728060495::1728902115::1::::<><>::
+Enemy 07-1.png::CompressedTexture2D::1486449917531257359::1728060495::1728902115::1::::<><>::
+Enemy 08-1.png::CompressedTexture2D::999354245828330714::1728060495::1728902115::1::::<><>::
+Enemy 09-1.png::CompressedTexture2D::1855449574576306768::1728060495::1728902115::1::::<><>::
+Enemy 10-1.png::CompressedTexture2D::6940076129342019255::1728060495::1728902115::1::::<><>::
+Enemy 11-1.png::CompressedTexture2D::4211682248139501272::1728060495::1728902115::1::::<><>::
+Enemy 12-1.png::CompressedTexture2D::2159802962699682457::1728060495::1728902115::1::::<><>::
+Enemy 13-1.png::CompressedTexture2D::1649170222830017865::1728060495::1728902115::1::::<><>::
+Enemy 14-1.png::CompressedTexture2D::5672990407069038548::1728060495::1728902115::1::::<><>::
+Enemy 15-1.png::CompressedTexture2D::5280158114029921967::1728060495::1728902115::1::::<><>::
+Enemy 15-2.png::CompressedTexture2D::6845205411793733813::1728060495::1728902115::1::::<><>::
+Enemy 15-3.png::CompressedTexture2D::4373411201565874832::1728060495::1728902115::1::::<><>::
+Enemy 15-4.png::CompressedTexture2D::2280711180609745972::1728060495::1728902115::1::::<><>::
+Enemy 15-5.png::CompressedTexture2D::7978974480196854849::1728060495::1728902115::1::::<><>::
+Enemy 15-6.png::CompressedTexture2D::3601388807967310146::1728060495::1728902115::1::::<><>::
+Enemy 16-1.png::CompressedTexture2D::5535846781557609898::1728060495::1728902115::1::::<><>::
+Enemy 16-2.png::CompressedTexture2D::3550308179378940326::1728060495::1728902115::1::::<><>::
+Enemy 16-3.png::CompressedTexture2D::7400547790837308301::1728060495::1728902115::1::::<><>::
+Enemy 16-4.png::CompressedTexture2D::3577690126934381659::1728060495::1728902115::1::::<><>::
+Enemy 16-5.png::CompressedTexture2D::1973031484850665678::1728060495::1728902115::1::::<><>::
+Enemy 16-6.png::CompressedTexture2D::3111423237147425661::1728060495::1728902115::1::::<><>::
+Enemy 16-7.png::CompressedTexture2D::8298095120262725070::1728060495::1728902115::1::::<><>::
+Enemy 16-8.png::CompressedTexture2D::5032609798305421851::1728060495::1728902115::1::::<><>::
+Enemy 17-1.png::CompressedTexture2D::7764866088324360122::1728060495::1728902115::1::::<><>::
+Enemy 17-2.png::CompressedTexture2D::4411412214768276751::1728060495::1728902115::1::::<><>::
+Enemy 17-3.png::CompressedTexture2D::2008525543017021689::1728060495::1728902115::1::::<><>::
+Enemy 17-4.png::CompressedTexture2D::2708421588490447758::1728060495::1728902115::1::::<><>::
+Enemy 17-5.png::CompressedTexture2D::2826031140292505803::1728060495::1728902115::1::::<><>::
+Enemy 17-6.png::CompressedTexture2D::5935609332414512042::1728060495::1728902115::1::::<><>::
+Enemy 17-7.png::CompressedTexture2D::8928584430220149774::1728060495::1728902115::1::::<><>::
+Enemy 17-8.png::CompressedTexture2D::7142858322235575029::1728060495::1728902115::1::::<><>::
+Enemy 18.png::CompressedTexture2D::3521095843450627013::1728060495::1728902115::1::::<><>::
+Enemy 19.png::CompressedTexture2D::2500677107063623086::1728060495::1728902115::1::::<><>::
+Enemy 20.png::CompressedTexture2D::3465312570035862591::1728060495::1728902115::1::::<><>::
+Enemy 21.png::CompressedTexture2D::6118786218807621903::1728060495::1728902115::1::::<><>::
+Enemy 22.png::CompressedTexture2D::8087925997317679206::1728060495::1728902115::1::::<><>::
+::res://Assets/Sprites/Female/::1728902115
+Female 01-1.png::CompressedTexture2D::5515844407510699828::1728060495::1728902115::1::::<><>::
+Female 01-2.png::CompressedTexture2D::430923994612727063::1728060495::1728902115::1::::<><>::
+Female 01-3.png::CompressedTexture2D::4465901202281085957::1728060495::1728902115::1::::<><>::
+Female 01-4.png::CompressedTexture2D::1736344390021108903::1728060495::1728902115::1::::<><>::
+Female 02-1.png::CompressedTexture2D::3272553905989790720::1728060495::1728902115::1::::<><>::
+Female 02-2.png::CompressedTexture2D::8863296430452444223::1728060495::1728902115::1::::<><>::
+Female 02-3.png::CompressedTexture2D::7313955087580241567::1728060495::1728902115::1::::<><>::
+Female 02-4.png::CompressedTexture2D::4940070101305260568::1728060495::1728902115::1::::<><>::
+Female 03-1.png::CompressedTexture2D::8908491624220324288::1728060495::1728902115::1::::<><>::
+Female 03-2.png::CompressedTexture2D::3472817396889884683::1728060495::1728902115::1::::<><>::
+Female 03-3.png::CompressedTexture2D::335369565196513522::1728060495::1728902115::1::::<><>::
+Female 03-4.png::CompressedTexture2D::7931507495741718953::1728060495::1728902115::1::::<><>::
+Female 04-1.png::CompressedTexture2D::2876633254783421016::1728060495::1728902115::1::::<><>::
+Female 04-2.png::CompressedTexture2D::3600200673113350859::1728060495::1728902115::1::::<><>::
+Female 04-3.png::CompressedTexture2D::4033194246285592992::1728060495::1728902115::1::::<><>::
+Female 04-4.png::CompressedTexture2D::686420685310273235::1728060495::1728902115::1::::<><>::
+Female 05-1.png::CompressedTexture2D::5412488980545271096::1728060495::1728902115::1::::<><>::
+Female 05-2.png::CompressedTexture2D::7921730238166887192::1728060495::1728902115::1::::<><>::
+Female 05-3.png::CompressedTexture2D::1188657982916716070::1728060495::1728902115::1::::<><>::
+Female 05-4.png::CompressedTexture2D::6787938218096019223::1728060495::1728902115::1::::<><>::
+Female 06-1.png::CompressedTexture2D::5023747650372475322::1728060495::1728902115::1::::<><>::
+Female 06-2.png::CompressedTexture2D::6131696298491345862::1728060495::1728902115::1::::<><>::
+Female 06-3.png::CompressedTexture2D::5579899624355614609::1728060495::1728902115::1::::<><>::
+Female 06-4.png::CompressedTexture2D::3062621311993862685::1728060495::1728902115::1::::<><>::
+Female 07-1.png::CompressedTexture2D::8844005286078635866::1728060495::1728902115::1::::<><>::
+Female 07-2.png::CompressedTexture2D::2629653571194054193::1728060495::1728902115::1::::<><>::
+Female 07-3.png::CompressedTexture2D::6963009845050334204::1728060495::1728902115::1::::<><>::
+Female 07-4.png::CompressedTexture2D::7959223489951809301::1728060495::1728902115::1::::<><>::
+Female 08-1.png::CompressedTexture2D::7482439484585872591::1728060495::1728902115::1::::<><>::
+Female 08-2.png::CompressedTexture2D::2931991984256349895::1728060495::1728902115::1::::<><>::
+Female 08-3.png::CompressedTexture2D::3220883694848844719::1728060495::1728902115::1::::<><>::
+Female 08-4.png::CompressedTexture2D::196793992133510500::1728060495::1728902115::1::::<><>::
+Female 09-1.png::CompressedTexture2D::6300164982021943298::1728060495::1728902115::1::::<><>::
+Female 09-2.png::CompressedTexture2D::5236347651432423638::1728060495::1728902115::1::::<><>::
+Female 09-3.png::CompressedTexture2D::3314045262422796756::1728060495::1728902115::1::::<><>::
+Female 09-4.png::CompressedTexture2D::6384543952075848064::1728060495::1728902115::1::::<><>::
+Female 10-1.png::CompressedTexture2D::6518369714971752335::1728060495::1728902115::1::::<><>::
+Female 10-2.png::CompressedTexture2D::8920447129193867372::1728060495::1728902115::1::::<><>::
+Female 10-3.png::CompressedTexture2D::4260140090280483416::1728060495::1728902115::1::::<><>::
+Female 10-4.png::CompressedTexture2D::3590141052735899516::1728060495::1728902115::1::::<><>::
+Female 11-1.png::CompressedTexture2D::6598500041150492689::1728060495::1728902115::1::::<><>::
+Female 11-2.png::CompressedTexture2D::1133053980008453184::1728060495::1728902115::1::::<><>::
+Female 11-3.png::CompressedTexture2D::7521618647083629707::1728060495::1728902115::1::::<><>::
+Female 11-4.png::CompressedTexture2D::1858361480084129212::1728060495::1728902115::1::::<><>::
+Female 12-1.png::CompressedTexture2D::1640083421240280027::1728060495::1728902115::1::::<><>::
+Female 12-2.png::CompressedTexture2D::3807335198315240639::1728060495::1728902115::1::::<><>::
+Female 12-3.png::CompressedTexture2D::3908181578871249044::1728060495::1728902115::1::::<><>::
+Female 12-4.png::CompressedTexture2D::1931030888710847682::1728060495::1728902115::1::::<><>::
+Female 13-1.png::CompressedTexture2D::1651214019569287285::1728060495::1728902115::1::::<><>::
+Female 13-2.png::CompressedTexture2D::8738437314121686912::1728060495::1728902115::1::::<><>::
+Female 13-3.png::CompressedTexture2D::8174514706175771559::1728060495::1728902115::1::::<><>::
+Female 13-4.png::CompressedTexture2D::7972171998053402927::1728060495::1728902115::1::::<><>::
+Female 14-1.png::CompressedTexture2D::147335033157441261::1728060495::1728902115::1::::<><>::
+Female 14-2.png::CompressedTexture2D::51044036750104731::1728060495::1728902115::1::::<><>::
+Female 14-3.png::CompressedTexture2D::7700320939321411113::1728060495::1728902115::1::::<><>::
+Female 14-4.png::CompressedTexture2D::2329242396053372100::1728060496::1728902115::1::::<><>::
+Female 15-1.png::CompressedTexture2D::6148115368813752539::1728060496::1728902115::1::::<><>::
+Female 15-2.png::CompressedTexture2D::1070009723289881433::1728060496::1728902115::1::::<><>::
+Female 15-3.png::CompressedTexture2D::1332387703046249922::1728060496::1728902115::1::::<><>::
+Female 15-4.png::CompressedTexture2D::499114071619258321::1728060496::1728902115::1::::<><>::
+Female 16-1.png::CompressedTexture2D::8965293916600263749::1728060496::1728902115::1::::<><>::
+Female 16-2.png::CompressedTexture2D::6822934771726232856::1728060496::1728902115::1::::<><>::
+Female 16-3.png::CompressedTexture2D::3530151805754607284::1728060496::1728902115::1::::<><>::
+Female 16-4.png::CompressedTexture2D::4642627478423149515::1728060496::1728902115::1::::<><>::
+Female 17-1.png::CompressedTexture2D::49066774339929154::1728060496::1728902115::1::::<><>::
+Female 17-2.png::CompressedTexture2D::4830327715624196996::1728060496::1728902115::1::::<><>::
+Female 17-3.png::CompressedTexture2D::7943633001036628483::1728060496::1728902115::1::::<><>::
+Female 17-4.png::CompressedTexture2D::943532820133320387::1728060496::1728902115::1::::<><>::
+Female 18-1.png::CompressedTexture2D::1190562662288115044::1728060496::1728902115::1::::<><>::
+Female 18-2.png::CompressedTexture2D::5147673623681742423::1728060496::1728902115::1::::<><>::
+Female 18-3.png::CompressedTexture2D::3769392584896149097::1728060496::1728902115::1::::<><>::
+Female 18-4.png::CompressedTexture2D::8544875422949937514::1728060496::1728902115::1::::<><>::
+Female 19-1.png::CompressedTexture2D::3805171803587706969::1728060496::1728902115::1::::<><>::
+Female 19-2.png::CompressedTexture2D::818248281100616329::1728060496::1728902115::1::::<><>::
+Female 19-3.png::CompressedTexture2D::7266820371119851302::1728060496::1728902115::1::::<><>::
+Female 19-4.png::CompressedTexture2D::2253211086968399794::1728060496::1728902115::1::::<><>::
+Female 20-1.png::CompressedTexture2D::6186318012064758468::1728060496::1728902115::1::::<><>::
+Female 20-2.png::CompressedTexture2D::4040588619404033501::1728060496::1728902115::1::::<><>::
+Female 20-3.png::CompressedTexture2D::8676383749592763585::1728060496::1728902115::1::::<><>::
+Female 20-4.png::CompressedTexture2D::4463658751770833698::1728060496::1728902115::1::::<><>::
+Female 21-1.png::CompressedTexture2D::7987353111928836527::1728060496::1728902115::1::::<><>::
+Female 21-2.png::CompressedTexture2D::7873314474425280800::1728060496::1728902115::1::::<><>::
+Female 21-3.png::CompressedTexture2D::6845321734286772835::1728060496::1728902115::1::::<><>::
+Female 21-4.png::CompressedTexture2D::349997435440282634::1728060496::1728902115::1::::<><>::
+Female 22-1.png::CompressedTexture2D::1081929464351093888::1728060496::1728902115::1::::<><>::
+Female 22-2.png::CompressedTexture2D::6037185549697034801::1728060496::1728902115::1::::<><>::
+Female 22-3.png::CompressedTexture2D::5882362972543698077::1728060496::1728902115::1::::<><>::
+Female 22-4.png::CompressedTexture2D::5059814822193356820::1728060496::1728902115::1::::<><>::
+Female 23-1.png::CompressedTexture2D::8975100890537462264::1728060496::1728902115::1::::<><>::
+Female 24-1.png::CompressedTexture2D::924575368033210891::1728060496::1728902115::1::::<><>::
+Female 25-1.png::CompressedTexture2D::5236640286044654219::1728060496::1728902115::1::::<><>::
+::res://Assets/Sprites/Japanese school characters/::1728901921
+::res://Assets/Sprites/Japanese school characters/school uniform 1/::1728902115
+su1 Student fmale 01.png::CompressedTexture2D::462899117320543770::1728060496::1728902115::1::::<><>::
+su1 Student fmale 02.png::CompressedTexture2D::3850567503202718282::1728060496::1728902115::1::::<><>::
+su1 Student fmale 03.png::CompressedTexture2D::5656233312760290696::1728060496::1728902115::1::::<><>::
+su1 Student fmale 04.png::CompressedTexture2D::541076459894667143::1728060496::1728902115::1::::<><>::
+su1 Student fmale 05.png::CompressedTexture2D::2343508800786288271::1728060496::1728902115::1::::<><>::
+su1 Student fmale 06.png::CompressedTexture2D::5801472661320771671::1728060496::1728902115::1::::<><>::
+su1 Student fmale 07.png::CompressedTexture2D::8022003373180858434::1728060496::1728902115::1::::<><>::
+su1 Student fmale 08.png::CompressedTexture2D::6512425720527201252::1728060496::1728902115::1::::<><>::
+su1 Student fmale 09.png::CompressedTexture2D::7253841646480822591::1728060496::1728902115::1::::<><>::
+su1 Student fmale 10.png::CompressedTexture2D::6440479383178041550::1728060496::1728902115::1::::<><>::
+su1 Student fmale 11.png::CompressedTexture2D::4462372072928759666::1728060496::1728902115::1::::<><>::
+su1 Student fmale 12.png::CompressedTexture2D::1051391856741857954::1728060496::1728902115::1::::<><>::
+su1 Student fmale 13.png::CompressedTexture2D::7435673009226832052::1728060496::1728902115::1::::<><>::
+su1 Student fmale 14.png::CompressedTexture2D::6085373064971189928::1728060496::1728902115::1::::<><>::
+su1 Student fmale 15.png::CompressedTexture2D::8295928055823121215::1728060496::1728902115::1::::<><>::
+su1 Student fmale 16.png::CompressedTexture2D::5062259213107433698::1728060496::1728902115::1::::<><>::
+su1 Student fmale 17.png::CompressedTexture2D::215212035867937634::1728060496::1728902115::1::::<><>::
+su1 Student fmale 18.png::CompressedTexture2D::3455393032018074844::1728060496::1728902115::1::::<><>::
+su1 Student male 01.png::CompressedTexture2D::5139367664352456678::1728060496::1728902115::1::::<><>::
+su1 Student male 02.png::CompressedTexture2D::4074719568295482018::1728060496::1728902115::1::::<><>::
+su1 Student male 03.png::CompressedTexture2D::1062554572463381823::1728060496::1728902115::1::::<><>::
+su1 Student male 04.png::CompressedTexture2D::1325189770881750020::1728060496::1728902115::1::::<><>::
+su1 Student male 05.png::CompressedTexture2D::4717855055264987697::1728060496::1728902115::1::::<><>::
+su1 Student male 06.png::CompressedTexture2D::7724077228369048209::1728060496::1728902115::1::::<><>::
+su1 Student male 07.png::CompressedTexture2D::5063343742676431666::1728060496::1728902115::1::::<><>::
+su1 Student male 08.png::CompressedTexture2D::8262993208790897640::1728060496::1728902115::1::::<><>::
+su1 Student male 09.png::CompressedTexture2D::8104445092603611390::1728060496::1728902115::1::::<><>::
+su1 Student male 10.png::CompressedTexture2D::1335417625410027774::1728060496::1728902115::1::::<><>::
+su1 Student male 11.png::CompressedTexture2D::2307473414612465434::1728060496::1728902115::1::::<><>::
+su1 Student male 12.png::CompressedTexture2D::8015462747144274081::1728060496::1728902115::1::::<><>::
+su1 Student male 13.png::CompressedTexture2D::6440170960726743733::1728060496::1728902115::1::::<><>::
+::res://Assets/Sprites/Japanese school characters/school uniform 2/::1728902115
+su2 Student fmale 01.png::CompressedTexture2D::1815580273283348399::1728060496::1728902115::1::::<><>::
+su2 Student fmale 02.png::CompressedTexture2D::7923585801354770019::1728060496::1728902115::1::::<><>::
+su2 Student fmale 03.png::CompressedTexture2D::4147817204448156979::1728060496::1728902115::1::::<><>::
+su2 Student fmale 04.png::CompressedTexture2D::6359508871683212326::1728060496::1728902115::1::::<><>::
+su2 Student fmale 05.png::CompressedTexture2D::6754357391673021906::1728060496::1728902115::1::::<><>::
+su2 Student fmale 06.png::CompressedTexture2D::2554168279916041940::1728060496::1728902115::1::::<><>::
+su2 Student fmale 07.png::CompressedTexture2D::8084959538603402426::1728060496::1728902115::1::::<><>::
+su2 Student fmale 08.png::CompressedTexture2D::4829252586377889481::1728060496::1728902115::1::::<><>::
+su2 Student fmale 09.png::CompressedTexture2D::3119041339625949725::1728060496::1728902115::1::::<><>::
+su2 Student fmale 10.png::CompressedTexture2D::1154980295523939439::1728060496::1728902115::1::::<><>::
+su2 Student fmale 11.png::CompressedTexture2D::8353476963219360553::1728060496::1728902115::1::::<><>::
+su2 Student fmale 12.png::CompressedTexture2D::1432971032863490685::1728060496::1728902115::1::::<><>::
+su2 Student fmale 13.png::CompressedTexture2D::5598507659662018155::1728060496::1728902115::1::::<><>::
+su2 Student fmale 14.png::CompressedTexture2D::8671676466258874015::1728060496::1728902115::1::::<><>::
+su2 Student fmale 15.png::CompressedTexture2D::7438479649886270108::1728060496::1728902115::1::::<><>::
+su2 Student fmale 16.png::CompressedTexture2D::7634493525521726628::1728060496::1728902115::1::::<><>::
+su2 Student fmale 17.png::CompressedTexture2D::4637717332319115656::1728060496::1728902115::1::::<><>::
+su2 Student fmale 18.png::CompressedTexture2D::5526250260966644278::1728060496::1728902115::1::::<><>::
+su2 Student male 01.png::CompressedTexture2D::2743700016251366642::1728060496::1728902115::1::::<><>::
+su2 Student male 02.png::CompressedTexture2D::4210754627893533169::1728060496::1728902115::1::::<><>::
+su2 Student male 03.png::CompressedTexture2D::1459670104093253020::1728060496::1728902115::1::::<><>::
+su2 Student male 04.png::CompressedTexture2D::8084455358335811213::1728060496::1728902115::1::::<><>::
+su2 Student male 05.png::CompressedTexture2D::8025348348364163665::1728060496::1728902115::1::::<><>::
+su2 Student male 06.png::CompressedTexture2D::8004604974258121801::1728060496::1728902115::1::::<><>::
+su2 Student male 07.png::CompressedTexture2D::8041243971079747940::1728060496::1728902115::1::::<><>::
+su2 Student male 08.png::CompressedTexture2D::4396610280999445673::1728060496::1728902115::1::::<><>::
+su2 Student male 09.png::CompressedTexture2D::4809142281324293562::1728060496::1728902115::1::::<><>::
+su2 Student male 10.png::CompressedTexture2D::5221940572479168496::1728060496::1728902115::1::::<><>::
+su2 Student male 11.png::CompressedTexture2D::1001421223737274383::1728060496::1728902115::1::::<><>::
+su2 Student male 12.png::CompressedTexture2D::1316146859089194333::1728060496::1728902115::1::::<><>::
+su2 Student male 13.png::CompressedTexture2D::2026467393150638128::1728060496::1728902115::1::::<><>::
+::res://Assets/Sprites/Japanese school characters/school uniform 3/::1728902115
+su3 Student fmale 01.png::CompressedTexture2D::6683030619058403959::1728060496::1728902115::1::::<><>::
+su3 Student fmale 02.png::CompressedTexture2D::3603671425851669439::1728060496::1728902115::1::::<><>::
+su3 Student fmale 03.png::CompressedTexture2D::2615395344569935397::1728060496::1728902115::1::::<><>::
+su3 Student fmale 04.png::CompressedTexture2D::1488752403120526884::1728060496::1728902115::1::::<><>::
+su3 Student fmale 05.png::CompressedTexture2D::1751178709275958189::1728060496::1728902115::1::::<><>::
+su3 Student fmale 06.png::CompressedTexture2D::7428227542251514265::1728060496::1728902115::1::::<><>::
+su3 Student fmale 07.png::CompressedTexture2D::5356393107952672027::1728060496::1728902115::1::::<><>::
+su3 Student fmale 08.png::CompressedTexture2D::9022476550004229902::1728060496::1728902115::1::::<><>::
+su3 Student fmale 09.png::CompressedTexture2D::8315530502707110679::1728060496::1728902115::1::::<><>::
+su3 Student fmale 10.png::CompressedTexture2D::912323226555573008::1728060496::1728902115::1::::<><>::
+su3 Student fmale 11.png::CompressedTexture2D::5138631118752697439::1728060496::1728902115::1::::<><>::
+su3 Student fmale 12.png::CompressedTexture2D::2484538098213793349::1728060496::1728902115::1::::<><>::
+su3 Student fmale 13.png::CompressedTexture2D::6513380603997988145::1728060496::1728902115::1::::<><>::
+su3 Student fmale 14.png::CompressedTexture2D::1538323484995088370::1728060496::1728902115::1::::<><>::
+su3 Student fmale 15.png::CompressedTexture2D::8438758383562984333::1728060496::1728902115::1::::<><>::
+su3 Student fmale 16.png::CompressedTexture2D::6895680558641045214::1728060496::1728902115::1::::<><>::
+su3 Student fmale 17.png::CompressedTexture2D::3638190414061789173::1728060496::1728902115::1::::<><>::
+su3 Student fmale 18.png::CompressedTexture2D::9112482283769239461::1728060496::1728902115::1::::<><>::
+su3 Student male 01.png::CompressedTexture2D::7778679807660592690::1728060496::1728902115::1::::<><>::
+su3 Student male 02.png::CompressedTexture2D::6198117422428434723::1728060496::1728902115::1::::<><>::
+su3 Student male 03.png::CompressedTexture2D::5080767326042325448::1728060496::1728902115::1::::<><>::
+su3 Student male 04.png::CompressedTexture2D::1391184939202346503::1728060496::1728902115::1::::<><>::
+su3 Student male 05.png::CompressedTexture2D::3209623397121193014::1728060496::1728902115::1::::<><>::
+su3 Student male 06.png::CompressedTexture2D::3437726008183459915::1728060496::1728902115::1::::<><>::
+su3 Student male 07.png::CompressedTexture2D::513881366071745761::1728060496::1728902115::1::::<><>::
+su3 Student male 08.png::CompressedTexture2D::8127197713785195624::1728060496::1728902115::1::::<><>::
+su3 Student male 09.png::CompressedTexture2D::8687242522337401281::1728060496::1728902115::1::::<><>::
+su3 Student male 10.png::CompressedTexture2D::4347089957230917396::1728060496::1728902115::1::::<><>::
+su3 Student male 11.png::CompressedTexture2D::7358953577542898600::1728060496::1728902115::1::::<><>::
+su3 Student male 12.png::CompressedTexture2D::3002199324052087431::1728060496::1728902115::1::::<><>::
+su3 Student male 13.png::CompressedTexture2D::8237793902567854199::1728060496::1728902115::1::::<><>::
+::res://Assets/Sprites/Japanese school characters/school uniform 4/::1728902115
+su4 Student fmale 01.png::CompressedTexture2D::2535257967311384989::1728060496::1728902115::1::::<><>::
+su4 Student fmale 02.png::CompressedTexture2D::6810536742696363537::1728060496::1728902115::1::::<><>::
+su4 Student fmale 03.png::CompressedTexture2D::7893922404764742934::1728060496::1728902115::1::::<><>::
+su4 Student fmale 04.png::CompressedTexture2D::6319193499898556661::1728060496::1728902115::1::::<><>::
+su4 Student fmale 05.png::CompressedTexture2D::5864098753984066817::1728060496::1728902115::1::::<><>::
+su4 Student fmale 06.png::CompressedTexture2D::5085694781455799205::1728060496::1728902115::1::::<><>::
+su4 Student fmale 07.png::CompressedTexture2D::5465807931325941302::1728060496::1728902115::1::::<><>::
+su4 Student fmale 08.png::CompressedTexture2D::7766681212713275814::1728060496::1728902115::1::::<><>::
+su4 Student fmale 09.png::CompressedTexture2D::5278506274710702650::1728060496::1728902115::1::::<><>::
+su4 Student fmale 10.png::CompressedTexture2D::2151554918065741428::1728060496::1728902115::1::::<><>::
+su4 Student fmale 11.png::CompressedTexture2D::3512968907073870366::1728060496::1728902115::1::::<><>::
+su4 Student fmale 12.png::CompressedTexture2D::5474667781118165702::1728060496::1728902115::1::::<><>::
+su4 Student fmale 13.png::CompressedTexture2D::8671986655858509987::1728060496::1728902115::1::::<><>::
+su4 Student fmale 14.png::CompressedTexture2D::427660139109154199::1728060496::1728902115::1::::<><>::
+su4 Student fmale 15.png::CompressedTexture2D::1284144937131389681::1728060496::1728902115::1::::<><>::
+su4 Student fmale 16.png::CompressedTexture2D::3750747778390361790::1728060496::1728902115::1::::<><>::
+su4 Student fmale 17.png::CompressedTexture2D::5743292118428411994::1728060496::1728902115::1::::<><>::
+su4 Student fmale 18.png::CompressedTexture2D::2212127765195999734::1728060496::1728902115::1::::<><>::
+su4 Student male 01.png::CompressedTexture2D::3523662141322035477::1728060496::1728902114::1::::<><>::
+su4 Student male 02.png::CompressedTexture2D::3706770908295493900::1728060496::1728902114::1::::<><>::
+su4 Student male 03.png::CompressedTexture2D::8475066082571327170::1728060496::1728902114::1::::<><>::
+su4 Student male 04.png::CompressedTexture2D::8147692603131025397::1728060496::1728902114::1::::<><>::
+su4 Student male 05.png::CompressedTexture2D::4349464435191681988::1728060496::1728902114::1::::<><>::
+su4 Student male 06.png::CompressedTexture2D::1639177442389768666::1728060496::1728902114::1::::<><>::
+su4 Student male 07.png::CompressedTexture2D::4467396600149901885::1728060496::1728902114::1::::<><>::
+su4 Student male 08.png::CompressedTexture2D::2329723298699937731::1728060496::1728902114::1::::<><>::
+su4 Student male 09.png::CompressedTexture2D::3655300988291298177::1728060496::1728902114::1::::<><>::
+su4 Student male 10.png::CompressedTexture2D::7360934161627939285::1728060496::1728902114::1::::<><>::
+su4 Student male 11.png::CompressedTexture2D::8336297032931266997::1728060496::1728902114::1::::<><>::
+su4 Student male 12.png::CompressedTexture2D::6628950663891638148::1728060496::1728902114::1::::<><>::
+su4 Student male 13.png::CompressedTexture2D::2739580233506110088::1728060496::1728902115::1::::<><>::
+::res://Assets/Sprites/Japanese school characters/teachers/::1728902115
+Headmaster fmale.png::CompressedTexture2D::1560891349893256170::1728060496::1728902115::1::::<><>::
+Headmaster male.png::CompressedTexture2D::2252982996417011077::1728060496::1728902115::1::::<><>::
+Teacher fmale 01.png::CompressedTexture2D::2396547372801536967::1728060496::1728902115::1::::<><>::
+Teacher fmale 02.png::CompressedTexture2D::8886885887333908667::1728060496::1728902115::1::::<><>::
+Teacher fmale 03.png::CompressedTexture2D::8931258300606477205::1728060496::1728902115::1::::<><>::
+Teacher fmale 04.png::CompressedTexture2D::4986784050484743200::1728060496::1728902115::1::::<><>::
+Teacher male 01.png::CompressedTexture2D::3254365584412374522::1728060496::1728902115::1::::<><>::
+Teacher male 02.png::CompressedTexture2D::8070612002801688699::1728060496::1728902115::1::::<><>::
+Teacher male 03.png::CompressedTexture2D::1952354844263022227::1728060496::1728902115::1::::<><>::
+Teacher male 04.png::CompressedTexture2D::5084616042209487019::1728060496::1728902115::1::::<><>::
+::res://Assets/Sprites/Male/::1728902115
+Male 01-1.png::CompressedTexture2D::3196835760239260607::1728060496::1728902115::1::::<><>::
+Male 01-2.png::CompressedTexture2D::6111451476118676117::1728060496::1728902115::1::::<><>::
+Male 01-3.png::CompressedTexture2D::7402737921202746766::1728060496::1728902115::1::::<><>::
+Male 01-4.png::CompressedTexture2D::2199264534373045679::1728060496::1728902115::1::::<><>::
+Male 02-1.png::CompressedTexture2D::5342616491700369156::1728060496::1728902115::1::::<><>::
+Male 02-2.png::CompressedTexture2D::5895935933217812283::1728060496::1728902115::1::::<><>::
+Male 02-3.png::CompressedTexture2D::3205620947434200220::1728060496::1728902115::1::::<><>::
+Male 02-4.png::CompressedTexture2D::5239840625608619281::1728060496::1728902115::1::::<><>::
+Male 03-1.png::CompressedTexture2D::6689822546370401502::1728060496::1728902115::1::::<><>::
+Male 03-2.png::CompressedTexture2D::4554192125651326159::1728060496::1728902115::1::::<><>::
+Male 03-3.png::CompressedTexture2D::2268867448389004837::1728060496::1728902115::1::::<><>::
+Male 03-4.png::CompressedTexture2D::8327649168593591793::1728060496::1728902115::1::::<><>::
+Male 04-1.png::CompressedTexture2D::5243956340358836481::1728060496::1728902115::1::::<><>::
+Male 04-2.png::CompressedTexture2D::111520968465308604::1728060496::1728902115::1::::<><>::
+Male 04-3.png::CompressedTexture2D::6659056401763673533::1728060496::1728902115::1::::<><>::
+Male 04-4.png::CompressedTexture2D::4977185719370590522::1728060496::1728902115::1::::<><>::
+Male 05-1.png::CompressedTexture2D::22042972207391924::1728060496::1728902115::1::::<><>::
+Male 05-2.png::CompressedTexture2D::4229405355508216842::1728060496::1728902115::1::::<><>::
+Male 05-3.png::CompressedTexture2D::4688726016657931885::1728060496::1728902115::1::::<><>::
+Male 05-4.png::CompressedTexture2D::6942392127963247495::1728060496::1728902115::1::::<><>::
+Male 06-1.png::CompressedTexture2D::4848881273550925748::1728060496::1728902115::1::::<><>::
+Male 06-2.png::CompressedTexture2D::6458134707360748309::1728060496::1728902115::1::::<><>::
+Male 06-3.png::CompressedTexture2D::5975460146231945439::1728060496::1728902115::1::::<><>::
+Male 06-4.png::CompressedTexture2D::5363595572866365501::1728060496::1728902115::1::::<><>::
+Male 07-1.png::CompressedTexture2D::3634855134696085770::1728060496::1728902115::1::::<><>::
+Male 07-2.png::CompressedTexture2D::8478520365305530508::1728060496::1728902115::1::::<><>::
+Male 07-3.png::CompressedTexture2D::2940586666250204670::1728060496::1728902115::1::::<><>::
+Male 07-4.png::CompressedTexture2D::9051257286041275395::1728060496::1728902115::1::::<><>::
+Male 08-1.png::CompressedTexture2D::1762026460694725051::1728060496::1728902115::1::::<><>::
+Male 08-2.png::CompressedTexture2D::4176493339439171618::1728060496::1728902115::1::::<><>::
+Male 08-3.png::CompressedTexture2D::8711991483301386104::1728060496::1728902115::1::::<><>::
+Male 08-4.png::CompressedTexture2D::3885318371635950486::1728060496::1728902115::1::::<><>::
+Male 09-1.png::CompressedTexture2D::1465708604248035424::1728060496::1728902115::1::::<><>::
+Male 09-2.png::CompressedTexture2D::5836790143002367748::1728060496::1728902115::1::::<><>::
+Male 09-3.png::CompressedTexture2D::6423169333954342666::1728060496::1728902115::1::::<><>::
+Male 09-4.png::CompressedTexture2D::5298819919758884154::1728060496::1728902115::1::::<><>::
+Male 10-1.png::CompressedTexture2D::2091770092774848644::1728060496::1728902115::1::::<><>::
+Male 10-2.png::CompressedTexture2D::3358180781140347430::1728060496::1728902115::1::::<><>::
+Male 10-3.png::CompressedTexture2D::1315683190304983641::1728060496::1728902115::1::::<><>::
+Male 10-4.png::CompressedTexture2D::4102057971186522916::1728060496::1728902115::1::::<><>::
+Male 11-1.png::CompressedTexture2D::3437896808262398635::1728060496::1728902115::1::::<><>::
+Male 11-2.png::CompressedTexture2D::678484121933537781::1728060496::1728902115::1::::<><>::
+Male 11-3.png::CompressedTexture2D::4237181543627860868::1728060496::1728902115::1::::<><>::
+Male 11-4.png::CompressedTexture2D::1432236067426601258::1728060496::1728902115::1::::<><>::
+Male 12-1.png::CompressedTexture2D::5235799737594473902::1728060496::1728902115::1::::<><>::
+Male 12-2.png::CompressedTexture2D::1666955061891232401::1728060496::1728902115::1::::<><>::
+Male 12-3.png::CompressedTexture2D::635879558420543914::1728060496::1728902115::1::::<><>::
+Male 12-4.png::CompressedTexture2D::1822248716828411427::1728060496::1728902115::1::::<><>::
+Male 13-1.png::CompressedTexture2D::8745095907817062280::1728060496::1728902115::1::::<><>::
+Male 13-2.png::CompressedTexture2D::2778401685427419710::1728060496::1728902115::1::::<><>::
+Male 13-3.png::CompressedTexture2D::6966099752774575915::1728060496::1728902115::1::::<><>::
+Male 13-4.png::CompressedTexture2D::6293504491761875447::1728060496::1728902115::1::::<><>::
+Male 14-1.png::CompressedTexture2D::8579775514936196324::1728060496::1728902115::1::::<><>::
+Male 14-2.png::CompressedTexture2D::6184005226532136443::1728060496::1728902115::1::::<><>::
+Male 14-3.png::CompressedTexture2D::2377016321750295214::1728060496::1728902115::1::::<><>::
+Male 14-4.png::CompressedTexture2D::6410575738708985106::1728060496::1728902115::1::::<><>::
+Male 15-1.png::CompressedTexture2D::1099712430472622592::1728060496::1728902115::1::::<><>::
+Male 15-2.png::CompressedTexture2D::4640137062580288286::1728060496::1728902115::1::::<><>::
+Male 15-3.png::CompressedTexture2D::8549030035075313854::1728060496::1728902115::1::::<><>::
+Male 15-4.png::CompressedTexture2D::560616117955357613::1728060496::1728902115::1::::<><>::
+Male 16-1.png::CompressedTexture2D::7379262491629089767::1728060496::1728902115::1::::<><>::
+Male 16-2.png::CompressedTexture2D::8936386900037046629::1728060496::1728902115::1::::<><>::
+Male 16-3.png::CompressedTexture2D::1023136345582266523::1728060496::1728902115::1::::<><>::
+Male 16-4.png::CompressedTexture2D::946557836269609314::1728060496::1728902115::1::::<><>::
+Male 17-1.png::CompressedTexture2D::7004898093009745370::1728060496::1728902115::1::::<><>::
+Male 17-2.png::CompressedTexture2D::656656982541160958::1728060496::1728902115::1::::<><>::
+Male 17-3.png::CompressedTexture2D::5503834186589592834::1728060496::1728902115::1::::<><>::
+Male 17-4.png::CompressedTexture2D::5971846078618547475::1728060496::1728902115::1::::<><>::
+Male 18-1.png::CompressedTexture2D::1502644684854450014::1728060496::1728902115::1::::<><>::
+::res://Assets/Sprites/Other/::1728902115
+pien2.png::CompressedTexture2D::6838559734113637116::1728060496::1728902115::1::::<><>::
+pien.png::CompressedTexture2D::7361223486766112883::1728060496::1728902115::1::::<><>::
+pipo-charachip_otaku01.png::CompressedTexture2D::6098021303989187655::1728060496::1728902115::1::::<><>::
+pipo-charachip_soldier01.png::CompressedTexture2D::2726271316166564124::1728060496::1728902115::1::::<><>::
+::res://Assets/Sprites/Soldier/::1728902115
+Soldier 01-1.png::CompressedTexture2D::5392595214210231777::1728060496::1728902115::1::::<><>::
+Soldier 01-2.png::CompressedTexture2D::1365875525346284793::1728060496::1728902115::1::::<><>::
+Soldier 01-3.png::CompressedTexture2D::4520166020168073451::1728060496::1728902115::1::::<><>::
+Soldier 01-4.png::CompressedTexture2D::4377641609555819990::1728060496::1728902115::1::::<><>::
+Soldier 02-1.png::CompressedTexture2D::607118542811061995::1728060496::1728902115::1::::<><>::
+Soldier 02-2.png::CompressedTexture2D::6131904724494333927::1728060496::1728902115::1::::<><>::
+Soldier 02-3.png::CompressedTexture2D::6742434023586654966::1728060496::1728902115::1::::<><>::
+Soldier 02-4.png::CompressedTexture2D::6801118646831227239::1728060496::1728902115::1::::<><>::
+Soldier 03-1.png::CompressedTexture2D::3716444578485373805::1728060496::1728902115::1::::<><>::
+Soldier 03-2.png::CompressedTexture2D::8971875635984751722::1728060496::1728902115::1::::<><>::
+Soldier 03-3.png::CompressedTexture2D::4132962040958103270::1728060496::1728902115::1::::<><>::
+Soldier 03-4.png::CompressedTexture2D::7817133861705478972::1728060496::1728902115::1::::<><>::
+Soldier 04-1.png::CompressedTexture2D::2762749781337528239::1728060496::1728902115::1::::<><>::
+Soldier 04-2.png::CompressedTexture2D::4534638912285472978::1728060496::1728902115::1::::<><>::
+Soldier 04-3.png::CompressedTexture2D::2989210408394691551::1728060496::1728902115::1::::<><>::
+Soldier 04-4.png::CompressedTexture2D::6422195407613888624::1728060496::1728902115::1::::<><>::
+Soldier 05-1.png::CompressedTexture2D::427491986118071893::1728060496::1728902115::1::::<><>::
+Soldier 05-2.png::CompressedTexture2D::6781750958094630304::1728060496::1728902115::1::::<><>::
+Soldier 05-3.png::CompressedTexture2D::6130432523656518729::1728060496::1728902115::1::::<><>::
+Soldier 05-4.png::CompressedTexture2D::2024089634869702955::1728060496::1728902115::1::::<><>::
+Soldier 06-1.png::CompressedTexture2D::5018284829695631816::1728060496::1728902115::1::::<><>::
+Soldier 06-2.png::CompressedTexture2D::6428431702200502471::1728060496::1728902115::1::::<><>::
+Soldier 06-3.png::CompressedTexture2D::4165902291419459927::1728060496::1728902115::1::::<><>::
+Soldier 06-4.png::CompressedTexture2D::7670253590704200572::1728060496::1728902115::1::::<><>::
+Soldier 07-1.png::CompressedTexture2D::8763980372387782057::1728060496::1728902115::1::::<><>::
+Soldier 07-2.png::CompressedTexture2D::5967496352690246923::1728060496::1728902115::1::::<><>::
+Soldier 07-3.png::CompressedTexture2D::594357956071977362::1728060496::1728902115::1::::<><>::
+Soldier 07-4.png::CompressedTexture2D::6385290634955681514::1728060496::1728902115::1::::<><>::
+::res://Assets/Sprites/Xmas/::1728902115
+pipo-xmaschara01.png::CompressedTexture2D::5791099934500601116::1728060496::1728902115::1::::<><>::
+pipo-xmaschara02.png::CompressedTexture2D::4350463503592308082::1728060496::1728902115::1::::<><>::
+pipo-xmaschara03.png::CompressedTexture2D::7255322686849056825::1728060496::1728902115::1::::<><>::
+pipo-xmaschara04.png::CompressedTexture2D::7072186704557234272::1728060496::1728902115::1::::<><>::
+pipo-xmaschara05.png::CompressedTexture2D::6624576902089093101::1728060496::1728902115::1::::<><>::
+pipo-xmaschara06.png::CompressedTexture2D::1094509006192528183::1728060496::1728902115::1::::<><>::
+::res://Assets/Tiles/::1728925083
+Dirt.png::CompressedTexture2D::7827311869087079639::1728916465::1728916466::1::::<><>::
+Grass.png::CompressedTexture2D::891858300056261412::1728916546::1728916546::1::::<><>::
+samplemap.png::CompressedTexture2D::3811673849529395778::1728062682::1728902116::1::::<><>::
+Wall-Up.png::CompressedTexture2D::8915611832298690926::1728916619::1728916619::1::::<><>::
+Water-Anim.png::CompressedTexture2D::1389694680185328101::1728916870::1728916871::1::::<><>::
+Water.png::CompressedTexture2D::5860602186057679052::1728916809::1728921554::1::::<><>::
+[Base]BaseChip_pipo.png::CompressedTexture2D::3137269251064010512::1728929637::1728929642::1::::<><>::
+::res://Assets/Tiles/[A]_type1/::1728915403
+[A]Dirt1-Dirt2_pipo.png::CompressedTexture2D::8410421178680248241::1728915401::1728915402::1::::<><>::
+[A]Dirt1-Dirt3_pipo.png::CompressedTexture2D::3075735011261873139::1728915401::1728915402::1::::<><>::
+[A]Dirt1-Dirt4_pipo.png::CompressedTexture2D::6228531821594833662::1728915401::1728915402::1::::<><>::
+[A]Dirt1_pipo.png::CompressedTexture2D::8076282164846548449::1728915401::1728915402::1::::<><>::
+[A]Dirt2_pipo.png::CompressedTexture2D::4633047065447693390::1728915401::1728915402::1::::<><>::
+[A]Dirt3_pipo.png::CompressedTexture2D::1589954765724054303::1728915401::1728915402::1::::<><>::
+[A]Dirt4_pipo.png::CompressedTexture2D::1724745205448516351::1728915401::1728915402::1::::<><>::
+[A]Flower_pipo.png::CompressedTexture2D::5668127296312697506::1728915401::1728915402::1::::<><>::
+[A]Grass1-Dirt1_pipo.png::CompressedTexture2D::6942384512395423151::1728915401::1728915402::1::::<><>::
+[A]Grass1-Dirt2_pipo.png::CompressedTexture2D::6923721479589206080::1728915401::1728915402::1::::<><>::
+[A]Grass1-Dirt3_pipo.png::CompressedTexture2D::6953833564888465899::1728915401::1728915402::1::::<><>::
+[A]Grass1-Dirt4_pipo.png::CompressedTexture2D::4325507821506506955::1728915401::1728915402::1::::<><>::
+[A]Grass1-Grass2_pipo.png::CompressedTexture2D::4945755492603502370::1728915401::1728915402::1::::<><>::
+[A]Grass1-Grass3_pipo.png::CompressedTexture2D::3885280046879327891::1728915401::1728915402::1::::<><>::
+[A]Grass1-Grass4_pipo.png::CompressedTexture2D::1861973235805902134::1728915401::1728915402::1::::<><>::
+[A]Grass1_pipo.png::CompressedTexture2D::3403427005571182645::1728915401::1728915402::1::::<><>::
+[A]Grass2_pipo.png::CompressedTexture2D::2911276946562627504::1728915401::1728915402::1::::<><>::
+[A]Grass3_pipo.png::CompressedTexture2D::8893898665280713671::1728915401::1728915402::1::::<><>::
+[A]Grass4_pipo.png::CompressedTexture2D::5880034621386551392::1728915401::1728915402::1::::<><>::
+[A]LongGrass_pipo.png::CompressedTexture2D::6275574094648108228::1728915401::1728915402::1::::<><>::
+[A]Wall-Up1_pipo.png::CompressedTexture2D::8972490829896318850::1728915401::1728915402::1::::<><>::
+[A]Wall-Up2_pipo.png::CompressedTexture2D::2387879731925703275::1728915401::1728915402::1::::<><>::
+[A]Water1_pipo.png::CompressedTexture2D::2918372385592989203::1728915401::1728915403::1::::<><>::
+[A]Water2_pipo.png::CompressedTexture2D::906646574871240468::1728915401::1728915403::1::::<><>::
+[A]Water3_Cave1_pipo.png::CompressedTexture2D::2757282362720937894::1728915401::1728915403::1::::<><>::
+[A]Water3_pipo.png::CompressedTexture2D::4876871416050724436::1728915401::1728915403::1::::<><>::
+[A]Water4_pipo.png::CompressedTexture2D::4653510293804123605::1728915401::1728915403::1::::<><>::
+[A]Water5_pipo.png::CompressedTexture2D::6648118892826379370::1728915401::1728915403::1::::<><>::
+[A]Water6_pipo.png::CompressedTexture2D::1423469540508023845::1728915401::1728915403::1::::<><>::
+[A]Water7_pipo.png::CompressedTexture2D::3726005087770009919::1728915401::1728915403::1::::<><>::
+[A]WaterFall1_pipo.png::CompressedTexture2D::8360116326662452140::1728915401::1728915403::1::::<><>::
+[A]WaterFall2_pipo.png::CompressedTexture2D::5442792731197986516::1728915401::1728915403::1::::<><>::
+[A]WaterFall3_pipo.png::CompressedTexture2D::7568385013696357936::1728915401::1728915403::1::::<><>::
+::res://Assets/Tiles/[A]_type1/not_animation/::1728915402
+[A]Water1_pipo.png::CompressedTexture2D::5794075448289856976::1728915401::1728915402::1::::<><>::
+[A]Water2_pipo.png::CompressedTexture2D::6533956757452916601::1728915401::1728915402::1::::<><>::
+[A]Water3_Cave1_pipo.png::CompressedTexture2D::3735044586489017710::1728915401::1728915402::1::::<><>::
+[A]Water3_pipo.png::CompressedTexture2D::4063981744555040636::1728915401::1728915402::1::::<><>::
+[A]Water4_pipo.png::CompressedTexture2D::1602952781741672054::1728915401::1728915402::1::::<><>::
+[A]Water5_pipo.png::CompressedTexture2D::3714263029864029519::1728915401::1728915402::1::::<><>::
+[A]Water6_pipo.png::CompressedTexture2D::7102304187989440349::1728915401::1728915402::1::::<><>::
+[A]Water7_pipo.png::CompressedTexture2D::8634437645987377119::1728915401::1728915402::1::::<><>::
+[A]WaterFall1_pipo.png::CompressedTexture2D::2960684901559844958::1728915401::1728915402::1::::<><>::
+[A]WaterFall2_pipo.png::CompressedTexture2D::3516073055986941558::1728915401::1728915402::1::::<><>::
+[A]WaterFall3_pipo.png::CompressedTexture2D::571970235618963719::1728915401::1728915402::1::::<><>::
+::res://Assets/Tiles/[A]_type2/::1728915403
+[A]Dirt1-Dirt2_pipo.png::CompressedTexture2D::2929088597700965043::1728915401::1728915403::1::::<><>::
+[A]Dirt1-Dirt3_pipo.png::CompressedTexture2D::8159821315262080319::1728915401::1728915403::1::::<><>::
+[A]Dirt1-Dirt4_pipo.png::CompressedTexture2D::5556229955469826228::1728915401::1728915403::1::::<><>::
+[A]Dirt1_pipo.png::CompressedTexture2D::3232437677116392621::1728915401::1728915403::1::::<><>::
+[A]Dirt2_pipo.png::CompressedTexture2D::4515442743154589553::1728915401::1728915403::1::::<><>::
+[A]Dirt3_pipo.png::CompressedTexture2D::5521685807829563197::1728915401::1728915403::1::::<><>::
+[A]Dirt4_pipo.png::CompressedTexture2D::33892862650320443::1728915401::1728915403::1::::<><>::
+[A]Flower_pipo.png::CompressedTexture2D::2589231086314969090::1728915401::1728915403::1::::<><>::
+[A]Grass1-Dirt1_pipo.png::CompressedTexture2D::6931086925706693867::1728915401::1728915402::1::::<><>::
+[A]Grass1-Dirt2_pipo.png::CompressedTexture2D::1396511560539278083::1728915401::1728915402::1::::<><>::
+[A]Grass1-Dirt3_pipo.png::CompressedTexture2D::5107940251365082067::1728915401::1728915402::1::::<><>::
+[A]Grass1-Dirt4_pipo.png::CompressedTexture2D::1034687199712547622::1728915401::1728915402::1::::<><>::
+[A]Grass1-Grass2_pipo.png::CompressedTexture2D::810641051072923631::1728915401::1728915402::1::::<><>::
+[A]Grass1-Grass3_pipo.png::CompressedTexture2D::4514711439582574400::1728915401::1728915402::1::::<><>::
+[A]Grass1-Grass4_pipo.png::CompressedTexture2D::6612507414187291658::1728915401::1728915402::1::::<><>::
+[A]Grass1_pipo.png::CompressedTexture2D::1930892214429424667::1728915401::1728915402::1::::<><>::
+[A]Grass2_pipo.png::CompressedTexture2D::3550149162190906025::1728915401::1728915402::1::::<><>::
+[A]Grass3_pipo.png::CompressedTexture2D::2099300733880809883::1728915401::1728915402::1::::<><>::
+[A]Grass4_pipo.png::CompressedTexture2D::7042030457838899201::1728915401::1728915402::1::::<><>::
+[A]LongGrass_pipo.png::CompressedTexture2D::1939994616851288386::1728915401::1728915402::1::::<><>::
+[A]Wall-Up1_pipo.png::CompressedTexture2D::6440742896502534845::1728915401::1728915402::1::::<><>::
+[A]Wall-Up2_pipo.png::CompressedTexture2D::1033315035159506308::1728915401::1728915402::1::::<><>::
+[A]Water1_pipo.png::CompressedTexture2D::183217325814188192::1728915401::1728915402::1::::<><>::
+[A]Water2_pipo.png::CompressedTexture2D::2634555736149498891::1728915401::1728915402::1::::<><>::
+[A]Water3_Cave1_pipo.png::CompressedTexture2D::8612465544007235248::1728915401::1728915402::1::::<><>::
+[A]Water3_pipo.png::CompressedTexture2D::8999146898484625014::1728915401::1728915402::1::::<><>::
+[A]Water4_pipo.png::CompressedTexture2D::853672368945066282::1728915401::1728915402::1::::<><>::
+[A]Water5_pipo.png::CompressedTexture2D::3744610896928782018::1728915401::1728915402::1::::<><>::
+[A]Water6_pipo.png::CompressedTexture2D::6534918940798758963::1728915401::1728915402::1::::<><>::
+[A]Water7_pipo.png::CompressedTexture2D::3720311252828876657::1728915401::1728915402::1::::<><>::
+[A]WaterFall1_pipo.png::CompressedTexture2D::2467386770349602463::1728915401::1728915402::1::::<><>::
+[A]WaterFall2_pipo.png::CompressedTexture2D::4800990227817846152::1728915401::1728915402::1::::<><>::
+[A]WaterFall3_pipo.png::CompressedTexture2D::7222891231676352897::1728915401::1728915402::1::::<><>::
+::res://Assets/Tiles/[A]_type2/not_animation/::1728915403
+[A]Water1_pipo.png::CompressedTexture2D::1274506852819934312::1728915401::1728915403::1::::<><>::
+[A]Water2_pipo.png::CompressedTexture2D::3955967710952168344::1728915401::1728915403::1::::<><>::
+[A]Water3_Cave1_pipo.png::CompressedTexture2D::3172210626365150449::1728915401::1728915403::1::::<><>::
+[A]Water3_pipo.png::CompressedTexture2D::895413122417617386::1728915401::1728915403::1::::<><>::
+[A]Water4_pipo.png::CompressedTexture2D::1578150020765913450::1728915401::1728915403::1::::<><>::
+[A]Water5_pipo.png::CompressedTexture2D::6563457065351050713::1728915401::1728915403::1::::<><>::
+[A]Water6_pipo.png::CompressedTexture2D::4253922788927157708::1728915401::1728915403::1::::<><>::
+[A]Water7_pipo.png::CompressedTexture2D::8853935401091699777::1728915401::1728915403::1::::<><>::
+[A]WaterFall1_pipo.png::CompressedTexture2D::3313893254944287988::1728915401::1728915403::1::::<><>::
+[A]WaterFall2_pipo.png::CompressedTexture2D::4655785562503435678::1728915401::1728915403::1::::<><>::
+[A]WaterFall3_pipo.png::CompressedTexture2D::8884341223403400426::1728915401::1728915403::1::::<><>::
+::res://Assets/Tiles/[A]_type3/::1728915402
+[A]Dirt1-Dirt2_pipo.png::CompressedTexture2D::2497183481032885809::1728915401::1728915402::1::::<><>::
+[A]Dirt1-Dirt3_pipo.png::CompressedTexture2D::2812344591161742058::1728915401::1728915402::1::::<><>::
+[A]Dirt1-Dirt4_pipo.png::CompressedTexture2D::1062946160496176399::1728915401::1728915402::1::::<><>::
+[A]Dirt1_pipo.png::CompressedTexture2D::8302424726774713447::1728915401::1728915402::1::::<><>::
+[A]Dirt2_pipo.png::CompressedTexture2D::7638383866738880018::1728915401::1728915402::1::::<><>::
+[A]Dirt3_pipo.png::CompressedTexture2D::3605723783366015593::1728915401::1728915402::1::::<><>::
+[A]Dirt4_pipo.png::CompressedTexture2D::3614690557342227531::1728915401::1728915402::1::::<><>::
+[A]Flower_pipo.png::CompressedTexture2D::8445142424596879819::1728915401::1728915402::1::::<><>::
+[A]Grass1-Dirt1_pipo.png::CompressedTexture2D::4939074714525451517::1728915401::1728915402::1::::<><>::
+[A]Grass1-Dirt2_pipo.png::CompressedTexture2D::3163848567836861534::1728915401::1728915402::1::::<><>::
+[A]Grass1-Dirt3_pipo.png::CompressedTexture2D::661627131080485065::1728915401::1728915402::1::::<><>::
+[A]Grass1-Dirt4_pipo.png::CompressedTexture2D::6189169827626448049::1728915401::1728915402::1::::<><>::
+[A]Grass1-Grass2_pipo.png::CompressedTexture2D::3374905681638454738::1728915401::1728915402::1::::<><>::
+[A]Grass1-Grass3_pipo.png::CompressedTexture2D::1680458258677577834::1728915401::1728915402::1::::<><>::
+[A]Grass1-Grass4_pipo.png::CompressedTexture2D::873866598022475809::1728915401::1728915402::1::::<><>::
+[A]Grass1_pipo.png::CompressedTexture2D::3470032479726835134::1728915401::1728915402::1::::<><>::
+[A]Grass2_pipo.png::CompressedTexture2D::1485788312749794708::1728915401::1728915402::1::::<><>::
+[A]Grass3_pipo.png::CompressedTexture2D::6368539563953906853::1728915401::1728915402::1::::<><>::
+[A]Grass4_pipo.png::CompressedTexture2D::1613390134625901821::1728915401::1728915402::1::::<><>::
+[A]LongGrass_pipo.png::CompressedTexture2D::840695774315161162::1728915401::1728915402::1::::<><>::
+[A]Wall-Up1_pipo.png::CompressedTexture2D::5576902168863368555::1728915401::1728915402::1::::<><>::
+[A]Wall-Up2_pipo.png::CompressedTexture2D::547401633403832688::1728915401::1728915402::1::::<><>::
+[A]Water1_pipo.png::CompressedTexture2D::7240712974020242461::1728915401::1728915402::1::::<><>::
+[A]Water2_pipo.png::CompressedTexture2D::5689107949347089335::1728915401::1728915402::1::::<><>::
+[A]Water3_Cave1_pipo.png::CompressedTexture2D::6890529231161927451::1728915401::1728915402::1::::<><>::
+[A]Water3_pipo.png::CompressedTexture2D::4596457712259191604::1728915401::1728915402::1::::<><>::
+[A]Water4_pipo.png::CompressedTexture2D::3822433733671889349::1728915401::1728915402::1::::<><>::
+[A]Water5_pipo.png::CompressedTexture2D::3783680904455518568::1728915401::1728915402::1::::<><>::
+[A]Water6_pipo.png::CompressedTexture2D::3157709552508574777::1728915401::1728915402::1::::<><>::
+[A]Water7_pipo.png::CompressedTexture2D::9141192557769832267::1728915401::1728915402::1::::<><>::
+[A]WaterFall1_pipo.png::CompressedTexture2D::5690657793900210904::1728915401::1728915402::1::::<><>::
+[A]WaterFall2_pipo.png::CompressedTexture2D::619839094463730088::1728915401::1728915402::1::::<><>::
+[A]WaterFall3_pipo.png::CompressedTexture2D::4073718928789221914::1728915401::1728915402::1::::<><>::
+::res://Assets/Tiles/[A]_type3/not_animation/::1728915402
+[A]Water1_pipo.png::CompressedTexture2D::5453890271866299963::1728915401::1728915402::1::::<><>::
+[A]Water2_pipo.png::CompressedTexture2D::7169213891436022251::1728915401::1728915402::1::::<><>::
+[A]Water3_Cave1_pipo.png::CompressedTexture2D::3740034884129009371::1728915401::1728915402::1::::<><>::
+[A]Water3_pipo.png::CompressedTexture2D::7820705670273281402::1728915401::1728915402::1::::<><>::
+[A]Water4_pipo.png::CompressedTexture2D::7471109452152888762::1728915401::1728915402::1::::<><>::
+[A]Water5_pipo.png::CompressedTexture2D::4415386495696567119::1728915401::1728915402::1::::<><>::
+[A]Water6_pipo.png::CompressedTexture2D::475042800904087555::1728915401::1728915402::1::::<><>::
+[A]Water7_pipo.png::CompressedTexture2D::7706984572984126662::1728915401::1728915402::1::::<><>::
+[A]WaterFall1_pipo.png::CompressedTexture2D::6876774436426079806::1728915401::1728915402::1::::<><>::
+[A]WaterFall2_pipo.png::CompressedTexture2D::2353026128088377988::1728915401::1728915402::1::::<><>::
+[A]WaterFall3_pipo.png::CompressedTexture2D::49949105932983619::1728915401::1728915402::1::::<><>::
+::res://Scene/::1728921734
+Jugador.tscn::PackedScene::-1::1728902081::0::1::::<><>::
+VideoWebProv.tscn::PackedScene::2178669220256928961::1728921734::0::1::::<><>::uid://bkxymplj6m873::::res://Assets/Tiles/[Base]BaseChip_pipo.png<>uid://c3cc5yg1kvgcs::::res://Assets/Sprites/Soldier/Soldier 02-3.png<>uid://c3yel6o1iil00::::res://Assets/Sprites/Female/Female 05-4.png<>uid://blstohdo7twy6::::res://Assets/Sprites/Male/Male 01-1.png
+::res://UI/::1728911414
+MainMenu.tscn::PackedScene::1370315594114474922::1728911414::0::1::::<><>::res://UI/SaveGameButton.tscn
+SaveGameButton.tscn::PackedScene::-1::1728902081::0::1::::<><>::
+SettingsMenu.tscn::PackedScene::980793497604896312::1728911414::0::1::::<><>::
