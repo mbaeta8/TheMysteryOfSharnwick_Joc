@@ -12,10 +12,15 @@ config_version=5
 
 config/name="the mystery of sharnwick"
 config/features=PackedStringArray("4.3")
-config/icon="res://icon.png"
+config/icon="res://icona.png"
+config/image=""
+config/size/viewport_height=648
+config/size/viewport_width=1152
 
 [display]
 
+window/size/viewport_width=1920
+window/size/viewport_height=1080
 window/size/resizable=false
 window/size/borderless=true
 
