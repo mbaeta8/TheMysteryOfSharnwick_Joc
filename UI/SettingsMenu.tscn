@@ -1,10 +1,18 @@
-[gd_scene format=3 uid="uid://n8dr4utlpnho"]
+[gd_scene load_steps=4 format=3 uid="uid://n8dr4utlpnho"]
+
+[ext_resource type="FontFile" uid="uid://c3vchd5158hq2" path="res://Assets/Fonts/Beholden-Regular.ttf" id="1_h6t0w"]
+[ext_resource type="Script" path="res://UI/settings_menu.gd" id="2_cs1ox"]
+
+[sub_resource type="Theme" id="Theme_787wr"]
+default_font = ExtResource("1_h6t0w")
 
 [node name="SettingsMenu" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
+theme = SubResource("Theme_787wr")
+script = ExtResource("2_cs1ox")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 0

@@ -47,7 +47,7 @@ tile_data = PackedInt32Array(0, 327680, 4, 65536, 327680, 2, 131072, 327680, 1, 
 [sub_resource type="TileMapPattern" id="TileMapPattern_5sgt3"]
 tile_data = PackedInt32Array(0, 393216, 4, 65536, 458752, 4, 1, 458752, 4, 65537, 393216, 4)
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1jfhf"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_scu8a"]
 texture = ExtResource("1")
 texture_region_size = Vector2i(32, 32)
 0:0/next_alternative_id = 2
@@ -1403,7 +1403,7 @@ texture_region_size = Vector2i(32, 32)
 31:24/0 = 0
 31:25/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tky77"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_76tyg"]
 texture = ExtResource("2_j2bfl")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
@@ -1924,7 +1924,7 @@ texture_region_size = Vector2i(32, 32)
 5:35/0 = 0
 6:35/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_byb4e"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7h4mt"]
 texture = ExtResource("3_qy3eb")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
@@ -2539,7 +2539,7 @@ texture_region_size = Vector2i(32, 32)
 5:41/0 = 0
 6:41/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4sil0"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ocihx"]
 texture = ExtResource("4_p4lgs")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
@@ -2637,7 +2637,7 @@ texture_region_size = Vector2i(32, 32)
 13:5/0 = 0
 14:5/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j5puh"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f5h3a"]
 texture = ExtResource("5_aarka")
 texture_region_size = Vector2i(32, 32)
 0:0/animation_columns = 8
@@ -8281,7 +8281,7 @@ texture_region_size = Vector2i(32, 32)
 6:59/animation_frame_3/duration = 1.0
 6:59/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w5tn1"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4ma0a"]
 texture = ExtResource("6_fo6dy")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
@@ -8804,12 +8804,12 @@ texture_region_size = Vector2i(32, 32)
 
 [sub_resource type="TileSet" id="1"]
 tile_size = Vector2i(32, 32)
-sources/0 = SubResource("TileSetAtlasSource_1jfhf")
-sources/1 = SubResource("TileSetAtlasSource_tky77")
-sources/2 = SubResource("TileSetAtlasSource_byb4e")
-sources/3 = SubResource("TileSetAtlasSource_4sil0")
-sources/4 = SubResource("TileSetAtlasSource_j5puh")
-sources/5 = SubResource("TileSetAtlasSource_w5tn1")
+sources/0 = SubResource("TileSetAtlasSource_scu8a")
+sources/1 = SubResource("TileSetAtlasSource_76tyg")
+sources/2 = SubResource("TileSetAtlasSource_7h4mt")
+sources/3 = SubResource("TileSetAtlasSource_ocihx")
+sources/4 = SubResource("TileSetAtlasSource_f5h3a")
+sources/5 = SubResource("TileSetAtlasSource_4ma0a")
 pattern_0 = SubResource("TileMapPattern_aoi4f")
 pattern_1 = SubResource("TileMapPattern_27x3r")
 pattern_2 = SubResource("TileMapPattern_lglug")

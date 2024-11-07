@@ -1,5 +1,6 @@
 res://default_env.tres
-res://Scene/VideoWebProv.tscn
 res://UI/MainMenu.tscn
 res://UI/SettingsMenu.tscn
-res://Scene/character_body_2d.gd
+res://Scene/VideoWebProv.tscn
+res://UI/main_menu.gd
+res://UI/settings_menu.gd
