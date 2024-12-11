@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_pnl03"]
+
+[resource]
+script = ExtResource("1_pnl03")
+using_states = PackedStringArray()
+titles = {
+"start": "3"
+}
+character_names = PackedStringArray("Kaelith")
+first_title = "3"
+lines = {
+"1": {
+"id": "1",
+"next_id": "3",
+"text": "start",
+"type": &"title"
+},
+"3": {
+"character": "Kaelith",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "¿Que estas buscando en esta ciudad exiliada?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿Que estas buscando en esta ciudad exiliada?",
+"type": &"dialogue"
+},
+"4": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"next_id_after": "9",
+"notes": "",
+"responses": PackedStringArray("4", "6"),
+"tags": PackedStringArray(),
+"text": "Solo quiero entender qué ocurrió.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Solo quiero entender qué ocurrió.",
+"type": &"response"
+},
+"5": {
+"character": "Kaelith",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "end",
+"notes": "",
+"parent_id": "4",
+"tags": PackedStringArray(),
+"text": "¿Entender? Nadie quiso escuchar mi versión antes. Dudo que tú seas diferente!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿Entender? Nadie quiso escuchar mi versión antes. Dudo que tú seas diferente!",
+"type": &"dialogue"
+},
+"6": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "7",
+"next_id_after": "9",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "No busco nada, solo me dio curiosidad.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No busco nada, solo me dio curiosidad.",
+"type": &"response"
+},
+"7": {
+"character": "Kaelith",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "end",
+"notes": "",
+"parent_id": "6",
+"tags": PackedStringArray(),
+"text": "¿Curiosidad? Siempre termina matando más que a los gatos. Continua tu camino pues.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿Curiosidad? Siempre termina matando más que a los gatos. Continua tu camino pues.",
+"type": &"dialogue"
+},
+"9": {
+"id": "9",
+"is_snippet": false,
+"next_id": "end",
+"type": &"goto"
+}
+}
+raw_text = "~ start
+
+Kaelith: ¿Que estas buscando en esta ciudad exiliada?
+- Solo quiero entender qué ocurrió.
+	Kaelith: ¿Entender? Nadie quiso escuchar mi versión antes. Dudo que tú seas diferente! => END
+- No busco nada, solo me dio curiosidad.
+	Kaelith: ¿Curiosidad? Siempre termina matando más que a los gatos. Continua tu camino pues. => END
+
+=> END"
+metadata/dialogue_manager_version = "2.44.0"

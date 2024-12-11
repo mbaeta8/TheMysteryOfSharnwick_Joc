@@ -3,4 +3,5 @@ res://Scene/VideoWebProv.tscn
 res://Assets/Tiles/BaseMapTileSet.tres
 res://UI/MainMenu.tscn
 res://UI/SettingsMenu.tscn
-res://Scene/character_body_2d.gd
+res://Scene/npc.tscn
+res://Scene/npc.gd

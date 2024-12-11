@@ -1,6 +1,11 @@
+NinePatchRect
+Control
+Timer
 CollisionShape2D
+Area2D
+AnimatedSprite2D
+CharacterBody2D
 CollisionPolygon2D
 StaticBody2D
-CharacterBody2D
 TileMap
 Camera2D
