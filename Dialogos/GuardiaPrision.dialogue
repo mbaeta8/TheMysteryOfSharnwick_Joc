@@ -1,0 +1,12 @@
+~ start
+
+Dravok: Te doy un consejo, viajero: no te acerques demasiado. No todos aquí son tan pacientes como yo.
+- ¿Por qué trabajas en un lugar como este?
+	Dravok: Porque alguien tiene que hacerlo. No todos nacen para blandir espadas en gloriosas batallas. => start
+- ¿Qué tan peligrosa es esta prisión?
+ Dravok: Más de lo que imaginas. Incluso las paredes tienen cicatrices de lo que intentaron contener. => start
+- No busco problemas, solo paso por aquí.
+	Dravok: Más te vale. Pero ten cuidado, en este lugar, los problemas suelen encontrarte. => start
+- Adios.
+	Dravok: Adios. => END
+=> END

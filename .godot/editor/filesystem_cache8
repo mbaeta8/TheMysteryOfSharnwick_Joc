@@ -1,7 +1,8 @@
-ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733934972
+c693a20e708c4e09bfa9edf12a750cf8
+::res://::1734375163
 character_body_2d.gd::GDScript::-1::1733930485::0::1::::<>CharacterBody2D<>::
-default_env.tres::Environment::1316852642981598220::1733934972::0::1::::<><>::
+default_env.tres::Environment::1316852642981598220::1734375109::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1734109537::0::1::::<><>::
 icon.png::CompressedTexture2D::7521646528915722789::1733930470::1733930476::1::::<><>::
 icona.png::CompressedTexture2D::3684527047751351084::1733930470::1733930475::1::::<><>::
 README.md::TextFile::-1::1732216140::0::1::::<><>::
@@ -476,9 +477,9 @@ pipo-xmaschara03.png::CompressedTexture2D::7255322686849056825::1729882823::1732
 pipo-xmaschara04.png::CompressedTexture2D::7072186704557234272::1729882823::1732216222::1::::<><>::
 pipo-xmaschara05.png::CompressedTexture2D::6624576902089093101::1729882823::1732216222::1::::<><>::
 pipo-xmaschara06.png::CompressedTexture2D::1094509006192528183::1729882823::1732216222::1::::<><>::
-::res://Assets/Tiles/::1733930638
+::res://Assets/Tiles/::1734363703
 addwork.png::CompressedTexture2D::4433886493329095603::1733930470::1733930476::1::::<><>::
-BaseMapTileSet.tres::TileSet::7215559102445823686::1733930638::0::1::::<><>::uid://bkxymplj6m873::::res://Assets/Tiles/[Base]BaseChip_pipo.png<>uid://djruxhow5ybhf::::res://Assets/Tiles/Dirt.png<>uid://mya1m673kyoy::::res://Assets/Tiles/Grass.png<>uid://d0a13a46ot2de::::res://Assets/Tiles/Wall-Up.png<>uid://t2gclai3x4ld::::res://Assets/Tiles/Water-Anim.png<>uid://cpq6i5ug42nbo::::res://Assets/Tiles/Water.png<>uid://cv0aljyrxtotu::::res://Assets/Tiles/LightShadow.png<>uid://b4f2py61odaq2::::res://Assets/Tiles/addwork.png
+BaseMapTileSet.tres::TileSet::7215559102445823686::1734363703::0::1::::<><>::uid://bkxymplj6m873::::res://Assets/Tiles/[Base]BaseChip_pipo.png<>uid://djruxhow5ybhf::::res://Assets/Tiles/Dirt.png<>uid://mya1m673kyoy::::res://Assets/Tiles/Grass.png<>uid://d0a13a46ot2de::::res://Assets/Tiles/Wall-Up.png<>uid://t2gclai3x4ld::::res://Assets/Tiles/Water-Anim.png<>uid://cpq6i5ug42nbo::::res://Assets/Tiles/Water.png<>uid://cv0aljyrxtotu::::res://Assets/Tiles/LightShadow.png<>uid://b4f2py61odaq2::::res://Assets/Tiles/addwork.png
 Dirt.png::CompressedTexture2D::7827311869087079639::1729882823::1732216224::1::::<><>::
 Grass.png::CompressedTexture2D::891858300056261412::1729882823::1732216225::1::::<><>::
 LightShadow.png::CompressedTexture2D::6298436681958689274::1733930470::1733930476::1::::<><>::
@@ -626,15 +627,32 @@ Water.png::CompressedTexture2D::5860602186057679052::1729882823::1732216224::1::
 [A]WaterFall1_pipo.png::CompressedTexture2D::6876774436426079806::1729882823::1732216223::1::::<><>::
 [A]WaterFall2_pipo.png::CompressedTexture2D::2353026128088377988::1729882823::1732216223::1::::<><>::
 [A]WaterFall3_pipo.png::CompressedTexture2D::49949105932983619::1729882823::1732216223::1::::<><>::
-::res://Dialogos/::1733934513
+::res://Dialogos/::1734023834
+GuardiaPrision.dialogue::Resource::365946287199593608::1734023834::1734023834::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
 kaelith.dialogue::Resource::3991544876150063327::1733935058::1733935058::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
-::res://Scene/::1733934972
-character_body_2d.gd::GDScript::-1::1733930485::0::1::::<>CharacterBody2D<>::
+Prisionero.dialogue::Resource::3623077456864610269::1734015471::1734015471::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
+::res://Scene/::1734375110
+camera_2d.gd::GDScript::-1::1734112315::0::1::::<>Camera2D<>::
+character_body_2d.gd::GDScript::-1::1734361745::0::1::::<>CharacterBody2D<>::
+control.gd::GDScript::-1::1734371066::0::1::::<>Control<>::
+control.tscn::PackedScene::514563947170280901::1734375032::0::1::::<><>::res://Scene/control.gd
+door_way.gd::GDScript::-1::1734112530::0::1::::<>Area2D<>::
+global.gd::GDScript::-1::1734373916::0::1::::<>Node<>::
+heroe.gd::GDScript::-1::1734362904::0::1::::<>CharacterBody2D<>::
+house.gd::GDScript::-1::1734112530::0::1::::<>Node2D<>::
+house.tscn::PackedScene::1756570744489553850::1734375032::0::1::::<><>::res://Scene/house.gd<>uid://da2jg7ckna8yc::::res://Assets/Tiles/BaseMapTileSet.tres
+inside.gd::GDScript::-1::1734374791::0::1::::<>Node2D<>::
+inside.tscn::PackedScene::2212624642969240415::1734375032::0::1::::<><>::uid://da2jg7ckna8yc::::res://Assets/Tiles/BaseMapTileSet.tres<>res://Scene/inside.gd<>res://Scene/npc_prisionero.gd<>uid://ci3hixex8c0dx::::res://Assets/Sprites/Soldier/Soldier 01-1.png<>res://Scene/npc_prision.gd<>uid://bbj4l76ukxi8l::::res://Assets/Sprites/Enemy/Enemy 02-1.png<>uid://vg44mahpstnb::::res://Scene/player.tscn
 Jugador.tscn::PackedScene::-1::1732216140::0::1::::<><>::
-npc.gd::GDScript::-1::1733934828::0::1::::<>CharacterBody2D<>::
-npc.tscn::PackedScene::2722125531774538182::1733934972::0::1::::<><>::res://Scene/npc.gd<>uid://0dsk3bko6a4j::::res://Assets/Sprites/Male/Male 08-1.png
-VideoWebProv.tscn::PackedScene::2178669220256928961::1733934972::0::1::::<><>::uid://da2jg7ckna8yc::::res://Assets/Tiles/BaseMapTileSet.tres<>uid://c3cc5yg1kvgcs::::res://Assets/Sprites/Soldier/Soldier 02-3.png<>uid://c3yel6o1iil00::::res://Assets/Sprites/Female/Female 05-4.png<>uid://blstohdo7twy6::::res://Assets/Sprites/Male/Male 01-1.png<>uid://be1vallhf6ifu::::res://Scene/npc.tscn<>res://Scene/character_body_2d.gd
-::res://UI/::1733934971
-MainMenu.tscn::PackedScene::1370315594114474922::1733934971::0::1::::<><>::res://UI/SaveGameButton.tscn
+npc.gd::GDScript::-1::1734365076::0::1::::<>CharacterBody2D<>::
+npc.tscn::PackedScene::2722125531774538182::1734375032::0::1::::<><>::res://Scene/npc.gd<>uid://0dsk3bko6a4j::::res://Assets/Sprites/Male/Male 08-1.png
+npc_prision.gd::GDScript::-1::1734364983::0::1::::<>CharacterBody2D<>::
+npc_prisionero.gd::GDScript::-1::1734364620::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1734366145::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::1488165194355532775::1734375032::0::1::::<><>::res://Scene/player.gd<>uid://c3yel6o1iil00::::res://Assets/Sprites/Female/Female 05-4.png<>uid://c3cc5yg1kvgcs::::res://Assets/Sprites/Soldier/Soldier 02-3.png<>uid://blstohdo7twy6::::res://Assets/Sprites/Male/Male 01-1.png
+VideoWebProv.tscn::PackedScene::2178669220256928961::1734375110::0::1::::<><>::uid://da2jg7ckna8yc::::res://Assets/Tiles/BaseMapTileSet.tres<>res://Scene/video_web_prov.gd<>uid://be1vallhf6ifu::::res://Scene/npc.tscn<>uid://0a5p03lg21us::::res://Scene/house.tscn<>uid://6r2us6il0tvr::::res://Scene/inside.tscn<>uid://vg44mahpstnb::::res://Scene/player.tscn
+video_web_prov.gd::GDScript::-1::1734375024::0::1::::<>Node2D<>::
+::res://UI/::1734108675
+MainMenu.tscn::PackedScene::1370315594114474922::1734108675::0::1::::<><>::res://UI/SaveGameButton.tscn
 SaveGameButton.tscn::PackedScene::-1::1732216140::0::1::::<><>::
-SettingsMenu.tscn::PackedScene::980793497604896312::1733934971::0::1::::<><>::
+SettingsMenu.tscn::PackedScene::980793497604896312::1734108675::0::1::::<><>::

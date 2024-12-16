@@ -1,0 +1,14 @@
+~ start
+
+Malric: ¿Un forastero? No esperaba visitas. Dime, ¿qué te trae a este agujero olvidado por los dioses?
+- Quiero saber por qué la ciudad y el castillo fueron exiliados.
+	Malric: ¿El exilio? Ja... nadie quiere recordar. Pero te diré esto: cuando un rey desafía a lo sagrado, su pueblo paga el precio. => start
+- ¿Qué sabes sobre lo que ocurrió aquí?
+	Malric: Sé más de lo que me convendría. Pero hablar tiene un precio. ¿Qué ofreces a cambio de la verdad? => start
+- ¿Estuviste aquí cuando todo sucedió? 
+	Malric: Claro que estuve. Vi las llamas y oí los gritos. Pero algunos secretos son mejor dejados en la oscuridad. => start
+- Solo soy curioso, no tienes que decir nada.
+	Malric: Curioso... Como lo fueron ellos. La curiosidad destruyó más que nuestra ciudad. Pero adelante, pregunta, si tienes el valor. => start
+- Adios.
+	Malric: Adios => END
+=> END

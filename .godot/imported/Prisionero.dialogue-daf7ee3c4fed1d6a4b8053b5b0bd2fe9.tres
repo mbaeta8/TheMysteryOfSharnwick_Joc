@@ -1,0 +1,184 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_qbypa"]
+
+[resource]
+script = ExtResource("1_qbypa")
+using_states = PackedStringArray()
+titles = {
+"start": "3"
+}
+character_names = PackedStringArray("Malric")
+first_title = "3"
+lines = {
+"1": {
+"id": "1",
+"next_id": "3",
+"text": "start",
+"type": &"title"
+},
+"10": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "10",
+"next_id": "11",
+"next_id_after": "14",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Solo soy curioso, no tienes que decir nada.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Solo soy curioso, no tienes que decir nada.",
+"type": &"response"
+},
+"11": {
+"character": "Malric",
+"character_replacements": Array[Dictionary]([]),
+"id": "11",
+"next_id": "3",
+"notes": "",
+"parent_id": "10",
+"tags": PackedStringArray(),
+"text": "Curioso... Como lo fueron ellos. La curiosidad destruyó más que nuestra ciudad. Pero adelante, pregunta, si tienes el valor.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Curioso... Como lo fueron ellos. La curiosidad destruyó más que nuestra ciudad. Pero adelante, pregunta, si tienes el valor.",
+"type": &"dialogue"
+},
+"12": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "12",
+"next_id": "13",
+"next_id_after": "14",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Adios.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Adios.",
+"type": &"response"
+},
+"13": {
+"character": "Malric",
+"character_replacements": Array[Dictionary]([]),
+"id": "13",
+"next_id": "end",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "Adios",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Adios",
+"type": &"dialogue"
+},
+"14": {
+"id": "14",
+"is_snippet": false,
+"next_id": "end",
+"type": &"goto"
+},
+"3": {
+"character": "Malric",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "¿Un forastero? No esperaba visitas. Dime, ¿qué te trae a este agujero olvidado por los dioses?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿Un forastero? No esperaba visitas. Dime, ¿qué te trae a este agujero olvidado por los dioses?",
+"type": &"dialogue"
+},
+"4": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"next_id_after": "14",
+"notes": "",
+"responses": PackedStringArray("4", "6", "8", "10", "12"),
+"tags": PackedStringArray(),
+"text": "Quiero saber por qué la ciudad y el castillo fueron exiliados.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Quiero saber por qué la ciudad y el castillo fueron exiliados.",
+"type": &"response"
+},
+"5": {
+"character": "Malric",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "3",
+"notes": "",
+"parent_id": "4",
+"tags": PackedStringArray(),
+"text": "¿El exilio? Ja... nadie quiere recordar. Pero te diré esto: cuando un rey desafía a lo sagrado, su pueblo paga el precio.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿El exilio? Ja... nadie quiere recordar. Pero te diré esto: cuando un rey desafía a lo sagrado, su pueblo paga el precio.",
+"type": &"dialogue"
+},
+"6": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "7",
+"next_id_after": "14",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "¿Qué sabes sobre lo que ocurrió aquí?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿Qué sabes sobre lo que ocurrió aquí?",
+"type": &"response"
+},
+"7": {
+"character": "Malric",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "3",
+"notes": "",
+"parent_id": "6",
+"tags": PackedStringArray(),
+"text": "Sé más de lo que me convendría. Pero hablar tiene un precio. ¿Qué ofreces a cambio de la verdad?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Sé más de lo que me convendría. Pero hablar tiene un precio. ¿Qué ofreces a cambio de la verdad?",
+"type": &"dialogue"
+},
+"8": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "9",
+"next_id_after": "14",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "¿Estuviste aquí cuando todo sucedió?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿Estuviste aquí cuando todo sucedió?",
+"type": &"response"
+},
+"9": {
+"character": "Malric",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "3",
+"notes": "",
+"parent_id": "8",
+"tags": PackedStringArray(),
+"text": "Claro que estuve. Vi las llamas y oí los gritos. Pero algunos secretos son mejor dejados en la oscuridad.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Claro que estuve. Vi las llamas y oí los gritos. Pero algunos secretos son mejor dejados en la oscuridad.",
+"type": &"dialogue"
+}
+}
+raw_text = "~ start
+
+Malric: ¿Un forastero? No esperaba visitas. Dime, ¿qué te trae a este agujero olvidado por los dioses?
+- Quiero saber por qué la ciudad y el castillo fueron exiliados.
+	Malric: ¿El exilio? Ja... nadie quiere recordar. Pero te diré esto: cuando un rey desafía a lo sagrado, su pueblo paga el precio. => start
+- ¿Qué sabes sobre lo que ocurrió aquí?
+	Malric: Sé más de lo que me convendría. Pero hablar tiene un precio. ¿Qué ofreces a cambio de la verdad? => start
+- ¿Estuviste aquí cuando todo sucedió? 
+	Malric: Claro que estuve. Vi las llamas y oí los gritos. Pero algunos secretos son mejor dejados en la oscuridad. => start
+- Solo soy curioso, no tienes que decir nada.
+	Malric: Curioso... Como lo fueron ellos. La curiosidad destruyó más que nuestra ciudad. Pero adelante, pregunta, si tienes el valor. => start
+- Adios.
+	Malric: Adios => END
+=> END"
+metadata/dialogue_manager_version = "2.44.0"

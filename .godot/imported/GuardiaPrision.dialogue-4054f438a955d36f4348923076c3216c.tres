@@ -1,0 +1,156 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_e8amk"]
+
+[resource]
+script = ExtResource("1_e8amk")
+using_states = PackedStringArray()
+titles = {
+"start": "3"
+}
+character_names = PackedStringArray("Dravok")
+first_title = "3"
+lines = {
+"1": {
+"id": "1",
+"next_id": "3",
+"text": "start",
+"type": &"title"
+},
+"10": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "10",
+"next_id": "11",
+"next_id_after": "12",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Adios.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Adios.",
+"type": &"response"
+},
+"11": {
+"character": "Dravok",
+"character_replacements": Array[Dictionary]([]),
+"id": "11",
+"next_id": "end",
+"notes": "",
+"parent_id": "10",
+"tags": PackedStringArray(),
+"text": "Adios.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Adios.",
+"type": &"dialogue"
+},
+"12": {
+"id": "12",
+"is_snippet": false,
+"next_id": "end",
+"type": &"goto"
+},
+"3": {
+"character": "Dravok",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Te doy un consejo, viajero: no te acerques demasiado. No todos aquí son tan pacientes como yo.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Te doy un consejo, viajero: no te acerques demasiado. No todos aquí son tan pacientes como yo.",
+"type": &"dialogue"
+},
+"4": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"next_id_after": "7",
+"notes": "",
+"responses": PackedStringArray("4", "6"),
+"tags": PackedStringArray(),
+"text": "¿Por qué trabajas en un lugar como este?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿Por qué trabajas en un lugar como este?",
+"type": &"response"
+},
+"5": {
+"character": "Dravok",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "3",
+"notes": "",
+"parent_id": "4",
+"tags": PackedStringArray(),
+"text": "Porque alguien tiene que hacerlo. No todos nacen para blandir espadas en gloriosas batallas.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Porque alguien tiene que hacerlo. No todos nacen para blandir espadas en gloriosas batallas.",
+"type": &"dialogue"
+},
+"6": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "7",
+"next_id_after": "7",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "¿Qué tan peligrosa es esta prisión?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿Qué tan peligrosa es esta prisión?",
+"type": &"response"
+},
+"7": {
+"character": "Dravok",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "3",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Más de lo que imaginas. Incluso las paredes tienen cicatrices de lo que intentaron contener.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Más de lo que imaginas. Incluso las paredes tienen cicatrices de lo que intentaron contener.",
+"type": &"dialogue"
+},
+"8": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "9",
+"next_id_after": "12",
+"notes": "",
+"responses": PackedStringArray("8", "10"),
+"tags": PackedStringArray(),
+"text": "No busco problemas, solo paso por aquí.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No busco problemas, solo paso por aquí.",
+"type": &"response"
+},
+"9": {
+"character": "Dravok",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "3",
+"notes": "",
+"parent_id": "8",
+"tags": PackedStringArray(),
+"text": "Más te vale. Pero ten cuidado, en este lugar, los problemas suelen encontrarte.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Más te vale. Pero ten cuidado, en este lugar, los problemas suelen encontrarte.",
+"type": &"dialogue"
+}
+}
+raw_text = "~ start
+
+Dravok: Te doy un consejo, viajero: no te acerques demasiado. No todos aquí son tan pacientes como yo.
+- ¿Por qué trabajas en un lugar como este?
+	Dravok: Porque alguien tiene que hacerlo. No todos nacen para blandir espadas en gloriosas batallas. => start
+- ¿Qué tan peligrosa es esta prisión?
+ Dravok: Más de lo que imaginas. Incluso las paredes tienen cicatrices de lo que intentaron contener. => start
+- No busco problemas, solo paso por aquí.
+	Dravok: Más te vale. Pero ten cuidado, en este lugar, los problemas suelen encontrarte. => start
+- Adios.
+	Dravok: Adios. => END
+=> END"
+metadata/dialogue_manager_version = "2.44.0"
