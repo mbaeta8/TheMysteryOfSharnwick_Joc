@@ -1,7 +1,6 @@
 extends Node2D
 
 var fin_demo: PackedScene = preload("res://Scene/control.tscn")
-@onready var control = $Control
 
 var fin_instance = Control
 

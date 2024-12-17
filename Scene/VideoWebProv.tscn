@@ -1,8 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://6bmmmq3k5b6p"]
+[gd_scene load_steps=7 format=3 uid="uid://6bmmmq3k5b6p"]
 
 [ext_resource type="TileSet" uid="uid://da2jg7ckna8yc" path="res://Assets/Tiles/BaseMapTileSet.tres" id="1_ppedr"]
 [ext_resource type="Script" path="res://Scene/video_web_prov.gd" id="1_wm52m"]
-[ext_resource type="PackedScene" uid="uid://4i0nsaw0ups4" path="res://Scene/npc_combate.tscn" id="5_p11x8"]
 [ext_resource type="PackedScene" uid="uid://be1vallhf6ifu" path="res://Scene/npc.tscn" id="6_1vgbj"]
 [ext_resource type="PackedScene" uid="uid://0a5p03lg21us" path="res://Scene/house.tscn" id="7_ovsqi"]
 [ext_resource type="PackedScene" uid="uid://6r2us6il0tvr" path="res://Scene/inside.tscn" id="8_hh0vc"]
@@ -94,9 +93,6 @@ position = Vector2(5942, 382.5)
 
 [node name="chat_detection_area" parent="NPC" index="2"]
 priority = 1
-
-[node name="NpcCombate" parent="." instance=ExtResource("5_p11x8")]
-position = Vector2(9739.5, 441)
 
 [node name="House" parent="." instance=ExtResource("7_ovsqi")]
 position = Vector2(5472.5, 192)

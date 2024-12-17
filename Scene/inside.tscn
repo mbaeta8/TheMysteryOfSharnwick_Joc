@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://6r2us6il0tvr"]
+[gd_scene load_steps=16 format=3 uid="uid://6r2us6il0tvr"]
 
 [ext_resource type="TileSet" uid="uid://da2jg7ckna8yc" path="res://Assets/Tiles/BaseMapTileSet.tres" id="1_tvfio"]
 [ext_resource type="Script" path="res://Scene/inside.gd" id="1_vww8h"]
@@ -7,6 +7,7 @@
 [ext_resource type="Script" path="res://Scene/npc_prision.gd" id="2_ltrm6"]
 [ext_resource type="Texture2D" uid="uid://bbj4l76ukxi8l" path="res://Assets/Sprites/Enemy/Enemy 02-1.png" id="3_24r8i"]
 [ext_resource type="PackedScene" uid="uid://vg44mahpstnb" path="res://Scene/player.tscn" id="7_b8p5u"]
+[ext_resource type="PackedScene" uid="uid://4i0nsaw0ups4" path="res://Scene/npc_combate.tscn" id="8_1nnee"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6lajn"]
 atlas = ExtResource("3_24r8i")
@@ -132,6 +133,10 @@ position = Vector2(1, 0)
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 position = Vector2(-1, 0)
 polygon = PackedVector2Array(-32, 224, -32, 160, -256, 160, -256, -288, 256, -288, 256, 160, 32, 160, 32, 224, -31, 224, 24, 315, 378, 283, 324, -144, 288, -318, 36, -317, -315, -302, -303, -164, -298, 166, -229, 209, -55, 220)
+
+[node name="NpcCombate" parent="." instance=ExtResource("8_1nnee")]
+position = Vector2(225, -135)
+scale = Vector2(1.5, 1.5)
 
 [connection signal="body_entered" from="NPCPrisionero/Chat" to="NPCPrisionero" method="_on_chat_body_entered"]
 [connection signal="body_exited" from="NPCPrisionero/Chat" to="NPCPrisionero" method="_on_chat_body_exited"]
