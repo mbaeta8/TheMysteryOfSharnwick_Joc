@@ -1,0 +1,10 @@
+~ start
+
+Kaelith: ¿Que estas buscando en esta ciudad exiliada?
+- Solo quiero entender qué ocurrió.
+	Kaelith: ¿Entender? Nadie quiso escuchar mi versión antes. Dudo que tú seas diferente! => start
+- No busco nada, solo me dio curiosidad.
+	Kaelith: ¿Curiosidad? Siempre termina matando más que a los gatos. Continua tu camino pues. => END
+- Adios 
+	Kaelith: Adios => END
+=> END

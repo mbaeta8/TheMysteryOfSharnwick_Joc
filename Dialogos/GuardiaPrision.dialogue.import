@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://fhjc1wnsudim"
+path="res://.godot/imported/GuardiaPrision.dialogue-4054f438a955d36f4348923076c3216c.tres"
+
+[deps]
+
+source_file="res://Dialogos/GuardiaPrision.dialogue"
+dest_files=["res://.godot/imported/GuardiaPrision.dialogue-4054f438a955d36f4348923076c3216c.tres"]
+
+[params]
+
+defaults=true

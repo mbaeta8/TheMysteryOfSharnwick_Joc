@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://bw4sfqbrq0tsh"
+path="res://.godot/imported/kaelith.dialogue-a4708560e76af814fc2d8fb3b0a1fafe.tres"
+
+[deps]
+
+source_file="res://Dialogos/kaelith.dialogue"
+dest_files=["res://.godot/imported/kaelith.dialogue-a4708560e76af814fc2d8fb3b0a1fafe.tres"]
+
+[params]
+
+defaults=true
