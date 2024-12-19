@@ -138,7 +138,6 @@ polygon = PackedVector2Array(-32, 224, -32, 160, -256, 160, -256, -288, 256, -28
 position = Vector2(225, -135)
 scale = Vector2(1.5, 1.5)
 collision_layer = 4
-collision_mask = 2
 
 [connection signal="body_entered" from="NPCPrisionero/Chat" to="NPCPrisionero" method="_on_chat_body_entered"]
 [connection signal="body_exited" from="NPCPrisionero/Chat" to="NPCPrisionero" method="_on_chat_body_exited"]
