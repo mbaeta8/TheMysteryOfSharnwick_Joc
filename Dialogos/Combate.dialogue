@@ -1,0 +1,11 @@
+~ start
+
+???: Asi que finalmente has llegado. Te has adentrado demasiado, forastero. Este lugar no es para los débiles.
+- ¿Quién eres y qué haces aquí?
+	???: ¿Mi nombre? No importa. Lo único que necesitas saber es que nadie cruza estas puertas y sale ileso. => start
+- No busco pelea, solo quiero respuestas.
+	???: ¿Respuesta? Ja... la única respuesta que obtendrás será con el filo de mi espada. => start
+- Si esto debe resolverse con una pelea, al menos salgamos al bosque. No quiero que nade más salga herido.
+	???: ¿Crees que eso cambiará algo? Muy bien. Pero será tu tumba. => END
+
+=> END

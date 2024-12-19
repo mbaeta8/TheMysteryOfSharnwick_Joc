@@ -86,7 +86,7 @@ animation = &"idle"
 frame_progress = 0.928524
 
 [node name="Chat" type="Area2D" parent="NPCPrisionero"]
-collision_layer = 0
+collision_layer = 4
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPCPrisionero/Chat"]
@@ -104,7 +104,7 @@ sprite_frames = SubResource("SpriteFrames_oex6l")
 animation = &"idle_guardia"
 
 [node name="Chat" type="Area2D" parent="NPCPrision"]
-collision_layer = 0
+collision_layer = 4
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPCPrision/Chat"]
@@ -137,6 +137,8 @@ polygon = PackedVector2Array(-32, 224, -32, 160, -256, 160, -256, -288, 256, -28
 [node name="NpcCombate" parent="." instance=ExtResource("8_1nnee")]
 position = Vector2(225, -135)
 scale = Vector2(1.5, 1.5)
+collision_layer = 4
+collision_mask = 2
 
 [connection signal="body_entered" from="NPCPrisionero/Chat" to="NPCPrisionero" method="_on_chat_body_entered"]
 [connection signal="body_exited" from="NPCPrisionero/Chat" to="NPCPrisionero" method="_on_chat_body_exited"]

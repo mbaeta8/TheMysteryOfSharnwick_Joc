@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://dx3eqhcmprw03"
+path="res://.godot/imported/Combate.dialogue-4290f3f824c4702a4b22f89730b429b2.tres"
+
+[deps]
+
+source_file="res://Dialogos/Combate.dialogue"
+dest_files=["res://.godot/imported/Combate.dialogue-4290f3f824c4702a4b22f89730b429b2.tres"]
+
+[params]
+
+defaults=true

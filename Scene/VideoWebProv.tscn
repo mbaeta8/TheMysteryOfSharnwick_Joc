@@ -90,13 +90,10 @@ polygon = PackedVector2Array(5280, 528.5, 5343.5, 528.5, 5344.5, 1089.5, 5281, 1
 
 [node name="NPC" parent="." instance=ExtResource("6_1vgbj")]
 position = Vector2(5942, 382.5)
-
-[node name="chat_detection_area" parent="NPC" index="2"]
-priority = 1
+collision_mask = 2
 
 [node name="House" parent="." instance=ExtResource("7_ovsqi")]
 position = Vector2(5472.5, 192)
 inside_house = ExtResource("8_hh0vc")
 
-[editable path="NPC"]
 [editable path="House"]

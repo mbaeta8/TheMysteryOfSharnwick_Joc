@@ -42,8 +42,9 @@ func _process(delta):
 				
 		if Input.is_action_just_pressed("chat") and player_in_chat_zone and not is_chatting:
 			is_roaming = false
-			is_chatting = true
 			DialogueManager.show_example_dialogue_balloon(load("res://Dialogos/kaelith.dialogue"), "start")
+			is_chatting = true
+			player_in_chat_zone = false
 			$AnimatedSprite2D.play("idle")
 
 func choose(array):

@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://4i0nsaw0ups4"]
+[gd_scene load_steps=7 format=3 uid="uid://4i0nsaw0ups4"]
 
 [ext_resource type="Texture2D" uid="uid://ctf8rrn3ongwd" path="res://Assets/Sprites/Enemy/Enemy 21.png" id="1_a2q02"]
+[ext_resource type="Script" path="res://Scene/npc_combate.gd" id="1_mqmhj"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_33oqm"]
 atlas = ExtResource("1_a2q02")
@@ -17,13 +18,15 @@ animations = [{
 "speed": 2.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_t4uye"]
-radius = 6.0
+[sub_resource type="CircleShape2D" id="CircleShape2D_ghocg"]
+radius = 11.0454
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_1wacf"]
-radius = 23.0217
+radius = 30.0167
 
 [node name="NpcCombate" type="CharacterBody2D"]
+collision_mask = 2
+script = ExtResource("1_mqmhj")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
@@ -31,10 +34,17 @@ sprite_frames = SubResource("SpriteFrames_84jbr")
 animation = &"idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 10)
-shape = SubResource("CircleShape2D_t4uye")
+position = Vector2(1, 8)
+shape = SubResource("CircleShape2D_ghocg")
 
 [node name="combat_area" type="Area2D" parent="."]
+position = Vector2(0, 3)
+collision_layer = 4
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="combat_area"]
 shape = SubResource("CircleShape2D_1wacf")
+metadata/_edit_lock_ = true
+
+[connection signal="body_entered" from="combat_area" to="." method="_on_combat_area_body_entered"]
+[connection signal="body_exited" from="combat_area" to="." method="_on_combat_area_body_exited"]
