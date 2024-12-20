@@ -18,5 +18,5 @@ func _on_exit_body_exited(body):
 func _process(delta):
 	if entered and Input.is_action_just_pressed("interaction"):
 		#Global.player_position = Global.pos_puerta
-		get_tree().change_scene_to_file("res://Scene/VideoWebProv.tscn")
+		get_tree().change_scene_to_file("res://Scene/batalla.tscn")
 		#Global.has_left_house = true

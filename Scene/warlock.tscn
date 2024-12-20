@@ -1,0 +1,61 @@
+[gd_scene load_steps=7 format=3 uid="uid://o5auksugcp8u"]
+
+[ext_resource type="Texture2D" uid="uid://ctf8rrn3ongwd" path="res://Assets/Sprites/Enemy/Enemy 21.png" id="1_2jx60"]
+[ext_resource type="PackedScene" uid="uid://dc2wkq1m42voa" path="res://Escenas/warlock_charge_attack.tscn" id="2_rneo8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m1ab8"]
+atlas = ExtResource("1_2jx60")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lghwb"]
+atlas = ExtResource("1_2jx60")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1oukf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m1ab8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lghwb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m1ab8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lghwb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m1ab8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lghwb")
+}],
+"loop": false,
+"name": &"throwingSpell",
+"speed": 6.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fqof6"]
+radius = 16.1245
+
+[node name="warlock" type="CharacterBody2D"]
+light_mask = 2
+visibility_layer = 2
+
+[node name="throwSpellAnimation" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_1oukf")
+animation = &"throwingSpell"
+frame = 5
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+light_mask = 3
+position = Vector2(0, 6)
+shape = SubResource("CircleShape2D_fqof6")
+
+[node name="warlockChargeAttack" parent="." instance=ExtResource("2_rneo8")]
+position = Vector2(-9, 1)
+frame = 6
+frame_progress = 0.650313

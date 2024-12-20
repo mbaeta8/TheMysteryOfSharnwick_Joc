@@ -1,0 +1,51 @@
+[gd_scene load_steps=8 format=3 uid="uid://dw7iqadj6kyhi"]
+
+[ext_resource type="Texture2D" uid="uid://chh0oyg0adjvj" path="res://Assets/Sprites/Enemy/Enemy 15-1.png" id="1_q6mxf"]
+[ext_resource type="Script" path="res://Scene/totem.gd" id="1_wje8u"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i730y"]
+atlas = ExtResource("1_q6mxf")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ka7vq"]
+atlas = ExtResource("1_q6mxf")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jhcr3"]
+atlas = ExtResource("1_q6mxf")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4ek1q"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i730y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ka7vq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jhcr3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ka7vq")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4b6pt"]
+radius = 17.0294
+
+[node name="totem" type="CharacterBody2D"]
+script = ExtResource("1_wje8u")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_4ek1q")
+animation = &"idle"
+frame_progress = 0.493422
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+light_mask = 3
+shape = SubResource("CircleShape2D_4b6pt")

@@ -1,0 +1,142 @@
+[gd_scene load_steps=10 format=3 uid="uid://x175ws7n63sp"]
+
+[ext_resource type="Texture2D" uid="uid://nokicfgk8c05" path="res://Assets/Status/charm icon.png" id="1_tokrc"]
+[ext_resource type="Texture2D" uid="uid://b1k2k7nmgpupt" path="res://Assets/Status/magic icon.png" id="2_xxwvm"]
+[ext_resource type="Texture2D" uid="uid://bce24akhi4hkk" path="res://Assets/Status/confusion icon.png" id="3_677nn"]
+[ext_resource type="Texture2D" uid="uid://s2b5ikxb77qh" path="res://Assets/Status/luck icon.png" id="4_1d3qb"]
+[ext_resource type="Texture2D" uid="uid://by4gjdhxsmekq" path="res://Assets/Status/death icon.png" id="5_4xcf1"]
+[ext_resource type="Texture2D" uid="uid://cscqxk6ap7sbp" path="res://Assets/Status/health icon.png" id="6_7b3rg"]
+[ext_resource type="Script" path="res://Scene/pasarTurn.gd" id="6_idxwb"]
+[ext_resource type="Texture2D" uid="uid://b2d2dn2pgj04l" path="res://Assets/Status/escape icon.png" id="7_t2k2v"]
+[ext_resource type="Texture2D" uid="uid://cw3qkipegd4bm" path="res://Assets/Status/attack icon.png" id="8_m5krk"]
+
+[node name="combatHud" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="spellContainer" type="VBoxContainer" parent="MarginContainer"]
+custom_minimum_size = Vector2(200, 20)
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="spells" type="HBoxContainer" parent="MarginContainer/spellContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+
+[node name="heal" type="Button" parent="MarginContainer/spellContainer/spells"]
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+icon = ExtResource("1_tokrc")
+icon_alignment = 1
+expand_icon = true
+
+[node name="ice" type="Button" parent="MarginContainer/spellContainer/spells"]
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+icon = ExtResource("2_xxwvm")
+icon_alignment = 1
+expand_icon = true
+
+[node name="fire" type="Button" parent="MarginContainer/spellContainer/spells"]
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+icon = ExtResource("3_677nn")
+icon_alignment = 1
+expand_icon = true
+
+[node name="hit" type="Button" parent="MarginContainer/spellContainer/spells"]
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+icon = ExtResource("4_1d3qb")
+icon_alignment = 1
+expand_icon = true
+
+[node name="instaKill" type="Button" parent="MarginContainer/spellContainer/spells"]
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+icon = ExtResource("5_4xcf1")
+icon_alignment = 1
+expand_icon = true
+
+[node name="pasarTurn" type="Button" parent="MarginContainer/spellContainer/spells"]
+custom_minimum_size = Vector2(40, 20)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+text = "Pasar turno"
+script = ExtResource("6_idxwb")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+
+[node name="HBox_HP" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+size_flags_vertical = 8
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBox_HP"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+texture = ExtResource("6_7b3rg")
+expand_mode = 1
+
+[node name="hpText" type="RichTextLabel" parent="MarginContainer/VBoxContainer/HBox_HP"]
+custom_minimum_size = Vector2(100, 10)
+layout_mode = 2
+theme_override_font_sizes/bold_italics_font_size = 4
+theme_override_font_sizes/italics_font_size = 4
+theme_override_font_sizes/mono_font_size = 4
+theme_override_font_sizes/normal_font_size = 15
+text = "20/20"
+
+[node name="HBox_Mov" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+size_flags_vertical = 8
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBox_Mov"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+texture = ExtResource("7_t2k2v")
+expand_mode = 1
+
+[node name="movText" type="RichTextLabel" parent="MarginContainer/VBoxContainer/HBox_Mov"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 15
+text = "100/100"
+
+[node name="HBox_Ata" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBox_Ata"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+texture = ExtResource("8_m5krk")
+expand_mode = 1
+
+[node name="ataText" type="RichTextLabel" parent="MarginContainer/VBoxContainer/HBox_Ata"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 15
+text = "4/4"
+
+[connection signal="button_down" from="MarginContainer/spellContainer/spells/pasarTurn" to="MarginContainer/spellContainer/spells/pasarTurn" method="_on_button_down"]
+[connection signal="pressed" from="MarginContainer/spellContainer/spells/pasarTurn" to="MarginContainer/spellContainer/spells/pasarTurn" method="_on_pressed"]
